@@ -3,12 +3,12 @@
 
 - Integer Practice
 
-  https://github-jl14.github.io/integers
+  https://jayxdcode.github.io/integers
 
 
 
 - Project CS
 
-  https://github-jl14.github.io/project_cs
+  https://jayxdcode.github.io/project_cs
 
   see [project_cs.md](/project_cs/project_cs.md)
