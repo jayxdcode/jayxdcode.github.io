@@ -21,6 +21,7 @@ jobs:
 
       - name: Initialize package.json
         run: |
+          cd ./journal/backend
           npm init -y
           cat package.json  # Display the generated file
 
@@ -28,6 +29,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add package.json
+          git add */package.json
           git commit -m "Auto-generate package.json"
           git push
