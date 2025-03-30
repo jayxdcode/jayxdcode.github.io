@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="login()">Login</button>
+
+    <h2>Entries</h2>
+    <div id="entries"></div>
+    <button onclick="showNewEntry()">New Entry</button>
+
+    <div id="entryForm" style="display: none;">
+        <input type="text" id="entryTitle" placeholder="Title"><br>
+        <textarea id="entryContent" placeholder="Contents"></textarea><br>
+        <button onclick="submitEntry()">Submit</button>
+        <button onclick="cancelEntry()">Cancel</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
