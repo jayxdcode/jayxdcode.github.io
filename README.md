@@ -1,4 +1,9 @@
-# github-jl14.github.io
+# jayxdcode.github.io
+
+- Journal
+
+  https://jayxdcode.github.io/journal/frontend/index.html
+  
 
 
 - Integer Practice
