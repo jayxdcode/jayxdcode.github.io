@@ -1,8 +1,8 @@
 # jayxdcode.github.io
 
-- Journal
+- Portfoli (unstable, indev)
 
-  https://jayxdcode.github.io/journal/frontend/index.html
+  https://jayxdcode.github.io/msg
   
 
 
