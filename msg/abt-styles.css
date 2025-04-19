@@ -1,0 +1,58 @@
+#bodyf {
+  display: flex;
+  justify-content: center;
+}
+
+.abt {
+  margin-top: 100px;
+  font-family: 'Noto Mono', monospace;
+  display: flex;
+  position: absolute;
+  place-items: center;
+  flex-direction: column;
+  
+  background-color: white;
+  box-shadow: 0 0 20px 1px #383838;
+  
+  width: 70%;
+  height: auto;
+  
+  border-radius: 35px;
+  
+  box-shadow: 0 0 20px 1px #383838;
+}
+
+@media (max-width: 770px) {
+  .abt {
+    width: 90%;
+  }
+}
+
+.abt #pfp {
+  border: .35rem solid #87DDD7; /* Lighter shade of teal */
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10%;
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.abt #intro {
+  font-weight: bold;
+  font-size: 20px;
+  
+  display: block;
+  text-align: center;
+}
+
+.abt #username {
+  font-family: "Roboto Mono", monospace;
+}
+
+.abt #parContent {
+  margin: 5em 3em 3em 5em;
+  color: rgba(68, 68, 68, 1);
+  line-height: 1.6;
+  font-size: .75rem;
+}
