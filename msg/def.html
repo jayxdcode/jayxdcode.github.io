@@ -7,6 +7,13 @@
   <meta name="theme-color" content="#f5f5f5" />
   <title>Template</title>
   
+  <link rel="stylesheet" href="const-styles.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="const-dark.css" type="text/css" media="all" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Mono&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  
   <script type="text/javascript" charset="utf-8">
     window.onload = () => {
       if (localStorage.getItem("themeMode") == 'dark_mode') {
@@ -16,25 +23,11 @@
         themeToggle.innerText = "light_mode";
       }
     }
-    
-    if (localStorage.getItem("themeMode") == 'dark_mode') {
-      document.body.classList.add('dark');
-      document.body.classList.remove('flashProtect');
-    } else {
-      document.body.classList.remove('flashProtect');
-    }
   </script>
-  
-  <link rel="stylesheet" href="const-styles.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="const-dark.css" type="text/css" media="all" />
-  
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Mono&display=swap" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   
 </head>
 
-<body class="flashProtect">
+<body>
   <div id="header">
     <div id="leftGroup">
       <div id="pfpCont">
