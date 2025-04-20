@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body.dark {
   margin: 0;
   padding: 0;
@@ -15,14 +19,13 @@ body.dark #header {
   left: 0;
   z-index: 10;
   padding: 0 1rem;
-  box-shadow: 0 0 20px 1px #383838;
   background-color: #050505;
   color: #CECECE;
   align-items: center;
   justify-content: space-between;
   /* softer border */
-	box-shadow: 0 0 25px 3px rgba(206, 206, 206, 0.2);
-  border-bottom: 2px solid #444;
+	box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
+  border-bottom: 3px solid #444;
   
   transition: all 0.2s ease-in-out;
 }

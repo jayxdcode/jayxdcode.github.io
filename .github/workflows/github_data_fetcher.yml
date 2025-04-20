@@ -1,0 +1,117 @@
+name: Fetch GitHub User Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install axios graphql
+
+      - name: Create script to fetch data
+        run: |
+          cat << 'EOF' > fetch.js
+          const fs = require('fs');
+          const axios = require('axios');
+
+          const token = process.env.GITHUB_TOKEN;
+          const username = process.env.GITHUB_USERNAME;
+
+          const headers = {
+            Authorization: `Bearer ${token}`,
+            'Content-Type': 'application/json'
+          };
+
+          const query = `
+            query {
+              user(login: "${username}") {
+                pinnedItems(first: 6, types: REPOSITORY) {
+                  nodes {
+                    ... on Repository {
+                      name
+                      url
+                      description
+                      stargazerCount
+                      forkCount
+                      updatedAt
+                    }
+                  }
+                }
+                repositories(first: 100, ownerAffiliations: OWNER, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                  nodes {
+                    name
+                    url
+                    updatedAt
+                    defaultBranchRef {
+                      target {
+                        ... on Commit {
+                          history(author: {id: "MDQ6VXNlcjE="}) {
+                            totalCount
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          `;
+
+          axios.post('https://api.github.com/graphql', { query }, { headers })
+            .then(res => {
+              const data = res.data.data.user;
+
+              const pinned = data.pinnedItems.nodes;
+
+              const sortedByUpdate = [...data.repositories.nodes].slice(0, 7);
+
+              const sortedByCommits = [...data.repositories.nodes]
+                .filter(repo => repo.defaultBranchRef?.target?.history?.totalCount)
+                .sort((a, b) => b.defaultBranchRef.target.history.totalCount - a.defaultBranchRef.target.history.totalCount)
+                .slice(0, 7)
+                .map(repo => ({
+                  ...repo,
+                  commitCount: repo.defaultBranchRef.target.history.totalCount
+                }));
+
+              const output = {
+                pinnedRepos: pinned,
+                latestModifiedRepos: sortedByUpdate,
+                mostCommittedRepos: sortedByCommits
+              };
+
+              fs.mkdirSync('msg', { recursive: true });
+              fs.writeFileSync(`msg/${username}_data.json`, JSON.stringify(output, null, 2));
+              console.log(`Saved data to msg/${username}_data.json`);
+            })
+            .catch(err => {
+              console.error('Error fetching GitHub data:', err.response?.data || err.message);
+              process.exit(1);
+            });
+          EOF
+
+      - name: Run fetch script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: your-username-here
+        run: node fetch.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git add msg/
+          git commit -m "Update GitHub user data JSON"
+          git push

@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="const-styles.css" type="text/css" media="all" />
   <link rel="stylesheet" href="const-dark.css" type="text/css" media="all" />
   
+  <link rel="stylesheet" href="proj-styles.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="proj-dark.css" type="text/css" media="all" />
+  
   <link href="https://fonts.googleapis.com/css2?family=Noto+Mono&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
@@ -36,7 +39,7 @@
       <div id="textCont">
         <span id="siteName">Site Name</span>
         <span class="lineBreak"></span>
-        <span id="sub">Sub</span>
+        <span id="sub">Projects</span>
       </div>
     </div>
     
@@ -52,16 +55,15 @@
   </div>
   
   <div id="siteNav">
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">About</a>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="def.html">Template</a>
   </div>
   
-  <div id="bodyf" style="display: grid; min-height: calc(100vh - 10vh);">
-    <!-- Page content -->
-    <!-- Remove 'style' snippet in the div#bodyf before starting -->
-    
-    <span style="place-self: center; font-family: 'Roboto Mono', monospace;">Nothing to see here... Start creating!</span>
+  <div id="bodyf">
+    <span class="title">
+      < Projects />
+    </span>
     
   </div>
   
@@ -74,6 +76,7 @@
   </div>
   
   <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  <script src="proj-cont-generator.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

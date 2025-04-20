@@ -1,0 +1,10 @@
+.title {
+  margin: 50px 0;
+  width: 100%;
+  font-size: 1.5rem;
+  max-height: 2rem;
+  height: auto;
+  
+  text-align: center;
+  font-weight: bold;
+}
