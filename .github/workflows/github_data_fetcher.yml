@@ -53,6 +53,7 @@ jobs:
                   nodes {
                     name
                     url
+                    description
                     updatedAt
                     defaultBranchRef {
                       target {
@@ -71,6 +72,13 @@ jobs:
 
           axios.post('https://api.github.com/graphql', { query }, { headers })
             .then(res => {
+              let date = new Date();
+              let year = date.getFullYear();
+              let month = (date.getMonth() + 1).toString().padStart(2, '0');
+              let day = date.getDate().toString().padStart(2, '0');
+
+              let yyyymmdd = parseInt(year + month + day);
+            
               const data = res.data.data.user;
 
               const pinned = data.pinnedItems.nodes;
@@ -87,6 +95,7 @@ jobs:
                 }));
 
               const output = {
+                lastUpdate: yyyymmdd,
                 pinnedRepos: pinned,
                 latestModifiedRepos: sortedByUpdate,
                 mostCommittedRepos: sortedByCommits

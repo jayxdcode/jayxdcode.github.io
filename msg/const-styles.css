@@ -9,6 +9,7 @@
 body {
   background-color: #fefefe;
   font-family: Arial, sans-serif;
+  height: calc(100% - 100px);
 }
 
 #header {
@@ -196,12 +197,7 @@ body {
   font-family: 'Noto Mono', monospace;
 }
 
-@media (orientation: landscape) {
-  #bodyf {
-    min-height: 90vw;
-  }
-  
-}
+
 
 /* Footer */
 #footer {
@@ -213,21 +209,23 @@ body {
   background-color: #fefefe;
   font-size: .8rem;
   justify-content: center;
+  align-self: end;
   flex-direction: column;
   font-family: 'Noto Mono', monospace;
-  justify-self: end;
+  align-self: flex-end;
   margin-top: 10px;
-  min-height: 10vh;
+  min-height: 100px;
   place-items: center;
 }
 
 #footer #creds {
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#footer .lineBreak {
-  width: 100px;
-  margin: 10px;
-  border: 1px dashed #C2C2C2;
-  background-color: unset;
+#footer #creds * {
+  margin: 3px;
 }
+

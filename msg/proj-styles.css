@@ -1,10 +1,109 @@
+#bodyf {
+  flex-direction: column;
+}
+
 .title {
   margin: 50px 0;
   width: 100%;
+  display: block;
   font-size: 1.5rem;
   max-height: 2rem;
   height: auto;
   
   text-align: center;
   font-weight: bold;
+}
+
+.projSection {
+  min-height: 200px;
+  height: auto;
+  flex-grow: 1;
+  
+  box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
+  border: 3px solid #444;
+  border-radius: 10px;
+  
+  margin: 15px;
+}
+
+.projSection .t2 {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 7px;
+}
+
+.projSection .sectionItem {
+	min-height: 150px;
+	padding: 15px 10px;
+	text-align: center;
+	margin-bottom: 15px; /* add spacing between items */
+}
+
+.repoItem {
+	display: block;
+	text-align: left;
+	border-top: 1px solid #ddd;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: inherit;
+	transition: background 0.3s;
+}
+
+.repoItem:first-of-type {
+	border-top: none;
+}
+
+.repoItem:hover {
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.repoTitle {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 10px 0 10px 0;
+}
+
+.repoDesc {
+	font-size: 0.9rem;
+	color: #666;
+	margin: 4px 0;
+}
+
+.repoStats, .upd, .down-overlay-text{
+	font-size: 0.8rem;
+	color: #999;
+	display: flex;
+	
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: left; /* better horizontal alignment */
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.updated {
+	top: 3px; /* reset margin for cleaner alignment */
+}
+
+.feature-down {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.down-overlay {
+	background-color: rgba(50, 50, 50, 1);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-content: center;
+	border-radius: inherit;
+}
+
+.down-overlay-text {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
 }
