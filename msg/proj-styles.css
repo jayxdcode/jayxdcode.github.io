@@ -18,6 +18,7 @@
   min-height: 200px;
   height: auto;
   flex-grow: 1;
+  justify-content: center;
   
   box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
   border: 3px solid #444;

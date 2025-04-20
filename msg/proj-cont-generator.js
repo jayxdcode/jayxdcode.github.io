@@ -35,7 +35,6 @@ fetch(DATA_URL)
       lineBreak.className = "lineBreak";
       
       lineBreak.style.width = "calc(100% - 4em)";
-      lineBreak.style.justifySelf = "center";
       
       pinned.appendChild(lineBreak);
       
