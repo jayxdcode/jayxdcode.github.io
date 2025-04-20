@@ -1,0 +1,18 @@
+{
+  "pinnedRepos": [],
+  "latestModifiedRepos": [
+    {
+      "name": "repository-name-here",
+      "url": "https://github.com/your-username-here/repository-name-here",
+      "updatedAt": "2016-06-19T07:56:03Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    }
+  ],
+  "mostCommittedRepos": []
+}
