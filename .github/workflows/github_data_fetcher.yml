@@ -105,7 +105,7 @@ jobs:
       - name: Run fetch script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: your-username-here
+          GITHUB_USERNAME: ${{ github.repository_owner }}
         run: node fetch.js
 
       - name: Commit and push changes
