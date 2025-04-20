@@ -1,6 +1,6 @@
 # jayxdcode.github.io
 
-- Portfoli (unstable, indev)
+- Portfolio (unstable, indev)
 
   https://jayxdcode.github.io/msg
   
