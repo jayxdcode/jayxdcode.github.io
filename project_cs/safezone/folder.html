@@ -127,10 +127,10 @@
 </head>
 
 <body>
-  <div id="messageContainer" style="display: none;">
+  <div id="messageContainer" style="display: none; align-items: center; justify-content: center; text-align: center; height: inherit;">
     Seems like you are missing a token.
     <br>
-    <a href="https://github-jl14.github.io/project_cs">Go to /project_cs</a>
+    <a href="https://github-jl14.github.io/project_cs" style="padding: 10px;">Go to /project_cs</a>
   </div>
 
   <h2>
@@ -165,7 +165,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       if (!folderName) {
         // Show the message if no folderName
-        document.getElementById('messageContainer').style.display = 'block';
+        document.getElementById('messageContainer').style.display = 'flex';
         document.getElementById('header').style.display = "none";
         document.getElementById('fnx').style.display = "none";
       } else {
@@ -220,7 +220,7 @@
       document.querySelector('.notice').style.display = 'block';
 
       // Fetch the manifest.json file
-      fetch('/manifest.json')
+      fetch('manifest.json')
         .then(response => response.json())
         .then(data => {
           const images = data[folderName] || [];

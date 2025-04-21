@@ -1,0 +1,72 @@
+name: Generate Global Manifest
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate manifest
+        run: |
+          node <<EOF
+          const fs = require('fs');
+          const path = require('path');
+
+          function getDirInfo(dirPath) {
+            const stats = fs.statSync(dirPath);
+            if (!stats.isDirectory()) return null;
+
+            const result = {
+              type: 'folder',
+              folders: 0,
+              files: 0,
+              hasIndexHTML: false,
+              size: '0',
+              contents: {}
+            };
+
+            const entries = fs.readdirSync(dirPath);
+            for (const entry of entries) {
+              const fullPath = path.join(dirPath, entry);
+              const entryStats = fs.statSync(fullPath);
+              const size = entryStats.size;
+              if (entryStats.isDirectory()) {
+                result.folders++;
+                result.contents[entry] = getDirInfo(fullPath);
+              } else {
+                result.files++;
+                result.hasIndexHTML ||= entry.toLowerCase() === 'index.html';
+                result.contents[entry] = {
+                  type: `file, ${path.extname(entry).slice(1).toUpperCase()}`,
+                  size: `${(size / 1024).toFixed(2)} KB`
+                };
+              }
+            }
+            return result;
+          }
+
+          const manifest = {
+            "jayxdcode.github.io": getDirInfo(".")
+          };
+
+          fs.writeFileSync('global_manifest.json', JSON.stringify(manifest, null, 2));
+          EOF
+
+      - name: Commit and push manifest
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add global_manifest.json
+          git commit -m "Update global_manifest.json"
+          git push

@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Generate manifest
-        run: node generateManifest.js
+        run: node project_cs/generateManifest.js
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"

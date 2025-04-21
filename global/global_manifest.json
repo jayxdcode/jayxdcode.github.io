@@ -1,0 +1,21 @@
+{
+  "jayxdcode.github.io": {
+    "type": "folder",
+    "folders": 5,
+    "files": 7,
+    "hasIndexHTML": true,
+    "size": "200 MB",
+    "contents": {
+      "index.html": {
+        "type": "file",
+        "fileType": "HTML",
+        "size": "35 KB"
+      },
+      "assets": {
+        "type": "file",
+        "fileType": "HTML",
+        "size": "120 MB"
+      }
+    }
+  }
+}

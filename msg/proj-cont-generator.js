@@ -1,5 +1,5 @@
 const username = "jayxdcode";
-const DATA_URL = `${username}_data.json`;
+const DATA_URL = `/global/${username}_data.json`;
 
 function formatUTCDateString(utcDateString) {
   const date = new Date(utcDateString);
@@ -35,6 +35,7 @@ fetch(DATA_URL)
       lineBreak.className = "lineBreak";
       
       lineBreak.style.width = "calc(100% - 4em)";
+      lineBreak.style.margin = "2em";
       
       pinned.appendChild(lineBreak);
       
@@ -75,7 +76,7 @@ fetch(DATA_URL)
       lineBreak.className = "lineBreak";
       
       lineBreak.style.width = "calc(100% - 4em)";
-      lineBreak.style.justifySelf = "center";
+      lineBreak.style.margin = "2em";
       
       latest.appendChild(lineBreak);
       
@@ -109,3 +110,55 @@ document.querySelectorAll(".feature-down").forEach(item => {
   
   item.appendChild(downOverlay);
 });
+
+fetch('/global/global_manifest.json')
+  .then(res => res.json())
+  .then(data => {
+    const rootName = Object.keys(data)[0];
+    const root = data[rootName];
+
+    const container = document.getElementById("exclusive");
+    container.innerHTML += `<div class="t2">jayxdcode.github.io's directory</div>`; // clear default
+
+    const buildTree = (name, node) => {
+      const item = document.createElement('div');
+      item.className = 'sectionItem';
+
+      const header = document.createElement('div');
+      header.className = 'repoItem';
+      header.textContent = name;
+      item.appendChild(header);
+
+      if (node.type === 'folder') {
+        const children = document.createElement('div');
+        children.style.display = 'none';
+        children.style.marginLeft = '20px';
+
+        for (const [childName, childNode] of Object.entries(node.contents)) {
+          children.appendChild(buildTree(childName, childNode));
+        }
+
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+          children.style.display = children.style.display === 'none' ? 'block' : 'none';
+        });
+
+        item.appendChild(children);
+      } else {
+        header.addEventListener('click', () => {
+          let display = document.getElementById('fileDisplay');
+          if (!display) {
+            display = document.createElement('span');
+            display.id = 'fileDisplay';
+            display.style.marginLeft = '10px';
+            document.body.appendChild(display);
+          }
+          display.innerText = 'open';
+        });
+      }
+
+      return item;
+    };
+
+    container.appendChild(buildTree(rootName, root));
+  });

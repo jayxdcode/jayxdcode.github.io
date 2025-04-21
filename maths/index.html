@@ -9,6 +9,10 @@
 </head>
 
 <body>
+  <div class="nav">
+    <a href="arith.html">Arith</a>
+  </div>
+  
   <p id="q">Choose a Mode</p>
   
   <button id="btn1" style="display: none"></button>
@@ -18,7 +22,7 @@
   
   <button id="continue" style="display: none;">Continue</button>
   
-  <button disabled id="multipleChoiceButton" onclick="start()">Multiple Choice (fix ongoing)</button>
+  <button  id="multipleChoiceButton" onclick="start()">Multiple Choice (fix ongoing)</button>
   <button id="oralMathButton">Oral Math</button>
   
   <div id="oralOverlay" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: #000; color: white; justify-content: center; align-items: center; flex-direction: column;">
@@ -31,7 +35,7 @@
       document.getElementById("btn2").style.display = "block";
       document.getElementById("btn3").style.display = "block";
       document.getElementById("btn4").style.display = "block";
-     // document.getElementById("btn1").style.display = block;
+      // document.getElementById("btn1").style.display = block;
     }
   </script>
 </body>

@@ -195,6 +195,7 @@ body {
   min-height: 90vh;
   padding-top: 70px;
   font-family: 'Noto Mono', monospace;
+  flex-direction: column;
 }
 
 

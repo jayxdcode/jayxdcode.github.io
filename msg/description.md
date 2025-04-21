@@ -1,0 +1,1 @@
+This folder was originally set to contain messages for ppl but for now, the new site UI is being made here.

@@ -1,0 +1,1 @@
+This folder is to deploy a site, made for distribution of information.

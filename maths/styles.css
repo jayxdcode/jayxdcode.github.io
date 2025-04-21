@@ -21,6 +21,13 @@ body {
   color: #FF7000;
 }
 
+.nav {
+	width: 100vw;
+	display: flex;
+	justify-content: left;
+	
+}
+
 #timer {
   margin-top: 30vh;
   position: absolute;
