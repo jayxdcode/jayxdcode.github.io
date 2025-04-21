@@ -65,3 +65,11 @@ jobs:
         with:
           name: global_manifest
           path: global/global_manifest.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add global/global_manifest.json
+          git commit -m "Updated {{ github.repository }}'s directory manifest."
+          git push
