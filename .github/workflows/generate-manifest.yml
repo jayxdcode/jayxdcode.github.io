@@ -1,5 +1,6 @@
 name: Generate Manifest
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'project_cs/safezone/**'

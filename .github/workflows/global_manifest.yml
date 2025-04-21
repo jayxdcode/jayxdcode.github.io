@@ -1,6 +1,7 @@
 name: Generate Global Manifest
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
