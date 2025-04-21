@@ -71,5 +71,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add global/global_manifest.json
-          git commit -m "Updated {{ github.repository }}'s directory manifest."
+          git commit -m "Updated ${{ github.repository }}'s directory manifest."
           git push
