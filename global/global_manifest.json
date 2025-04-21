@@ -1,1432 +1,44 @@
 {
   "jayxdcode.github.io": {
     "type": "folder",
-    "folders": 9,
+    "folders": 8,
     "files": 5,
     "hasIndexHTML": true,
-    "size": "0",
+    "size": 8067069,
     "contents": {
-      ".git": {
-        "type": "folder",
-        "folders": 5,
-        "files": 7,
-        "hasIndexHTML": false,
-        "size": "0",
-        "contents": {
-          "FETCH_HEAD": {
-            "type": "file, ",
-            "size": "0.13 KB"
-          },
-          "HEAD": {
-            "type": "file, ",
-            "size": "0.02 KB"
-          },
-          "config": {
-            "type": "file, ",
-            "size": "0.42 KB"
-          },
-          "config.worktree": {
-            "type": "file, WORKTREE",
-            "size": "0.08 KB"
-          },
-          "description": {
-            "type": "file, ",
-            "size": "0.07 KB"
-          },
-          "hooks": {
-            "type": "folder",
-            "folders": 0,
-            "files": 14,
-            "hasIndexHTML": false,
-            "size": "0",
-            "contents": {
-              "applypatch-msg.sample": {
-                "type": "file, SAMPLE",
-                "size": "0.47 KB"
-              },
-              "commit-msg.sample": {
-                "type": "file, SAMPLE",
-                "size": "0.88 KB"
-              },
-              "fsmonitor-watchman.sample": {
-                "type": "file, SAMPLE",
-                "size": "4.62 KB"
-              },
-              "post-update.sample": {
-                "type": "file, SAMPLE",
-                "size": "0.18 KB"
-              },
-              "pre-applypatch.sample": {
-                "type": "file, SAMPLE",
-                "size": "0.41 KB"
-              },
-              "pre-commit.sample": {
-                "type": "file, SAMPLE",
-                "size": "1.61 KB"
-              },
-              "pre-merge-commit.sample": {
-                "type": "file, SAMPLE",
-                "size": "0.41 KB"
-              },
-              "pre-push.sample": {
-                "type": "file, SAMPLE",
-                "size": "1.34 KB"
-              },
-              "pre-rebase.sample": {
-                "type": "file, SAMPLE",
-                "size": "4.78 KB"
-              },
-              "pre-receive.sample": {
-                "type": "file, SAMPLE",
-                "size": "0.53 KB"
-              },
-              "prepare-commit-msg.sample": {
-                "type": "file, SAMPLE",
-                "size": "1.46 KB"
-              },
-              "push-to-checkout.sample": {
-                "type": "file, SAMPLE",
-                "size": "2.72 KB"
-              },
-              "sendemail-validate.sample": {
-                "type": "file, SAMPLE",
-                "size": "2.25 KB"
-              },
-              "update.sample": {
-                "type": "file, SAMPLE",
-                "size": "3.56 KB"
-              }
-            }
-          },
-          "index": {
-            "type": "file, ",
-            "size": "8.08 KB"
-          },
-          "info": {
-            "type": "folder",
-            "folders": 0,
-            "files": 1,
-            "hasIndexHTML": false,
-            "size": "0",
-            "contents": {
-              "exclude": {
-                "type": "file, ",
-                "size": "0.23 KB"
-              }
-            }
-          },
-          "logs": {
-            "type": "folder",
-            "folders": 1,
-            "files": 1,
-            "hasIndexHTML": false,
-            "size": "0",
-            "contents": {
-              "HEAD": {
-                "type": "file, ",
-                "size": "0.17 KB"
-              },
-              "refs": {
-                "type": "folder",
-                "folders": 2,
-                "files": 0,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "heads": {
-                    "type": "folder",
-                    "folders": 0,
-                    "files": 1,
-                    "hasIndexHTML": false,
-                    "size": "0",
-                    "contents": {
-                      "main": {
-                        "type": "file, ",
-                        "size": "0.18 KB"
-                      }
-                    }
-                  },
-                  "remotes": {
-                    "type": "folder",
-                    "folders": 1,
-                    "files": 0,
-                    "hasIndexHTML": false,
-                    "size": "0",
-                    "contents": {
-                      "origin": {
-                        "type": "folder",
-                        "folders": 0,
-                        "files": 2,
-                        "hasIndexHTML": false,
-                        "size": "0",
-                        "contents": {
-                          "HEAD": {
-                            "type": "file, ",
-                            "size": "0.14 KB"
-                          },
-                          "main": {
-                            "type": "file, ",
-                            "size": "0.27 KB"
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "objects": {
-            "type": "folder",
-            "folders": 85,
-            "files": 0,
-            "hasIndexHTML": false,
-            "size": "0",
-            "contents": {
-              "10": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "910ac8ce2f78126f66265e82be879b3b5ace2c": {
-                    "type": "file, ",
-                    "size": "0.10 KB"
-                  }
-                }
-              },
-              "13": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "76e97c4a1de9be25c3f7143f1832440f71ab56": {
-                    "type": "file, ",
-                    "size": "0.21 KB"
-                  }
-                }
-              },
-              "15": {
-                "type": "folder",
-                "folders": 0,
-                "files": 3,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "5066c773d813efd8240ee7be4aea222d2dae7f": {
-                    "type": "file, ",
-                    "size": "43.53 KB"
-                  },
-                  "721ba576a0b99829f280a5f09501a841f6667e": {
-                    "type": "file, ",
-                    "size": "0.09 KB"
-                  },
-                  "94d72a064229349d9a6a8ae49cfd3c6cb2d483": {
-                    "type": "file, ",
-                    "size": "0.03 KB"
-                  }
-                }
-              },
-              "20": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "e552cf22aae538e32f10a2b9e8ce74cab5611b": {
-                    "type": "file, ",
-                    "size": "0.18 KB"
-                  }
-                }
-              },
-              "24": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "e556e15e4c0d2576d09b5b4118276d4260a276": {
-                    "type": "file, ",
-                    "size": "2.67 KB"
-                  }
-                }
-              },
-              "25": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "57d3680e92fcd902e4d9790e3af4fabe02d1c2": {
-                    "type": "file, ",
-                    "size": "0.11 KB"
-                  }
-                }
-              },
-              "27": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "81534b9dea87f6a0b9de72f4403b55c621b0b0": {
-                    "type": "file, ",
-                    "size": "0.89 KB"
-                  }
-                }
-              },
-              "28": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "0c72c35676a247edef386ce27d74fbd5e658ce": {
-                    "type": "file, ",
-                    "size": "0.26 KB"
-                  }
-                }
-              },
-              "31": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "5b6c53895c561218fbb785699a8d73313ce6ef": {
-                    "type": "file, ",
-                    "size": "0.74 KB"
-                  }
-                }
-              },
-              "36": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "c9119cd714faa7907ae79b134740f872321a63": {
-                    "type": "file, ",
-                    "size": "5.99 KB"
-                  }
-                }
-              },
-              "37": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "e6eacec7e8407b8aaed88c84805f3d2268f97b": {
-                    "type": "file, ",
-                    "size": "8.18 KB"
-                  }
-                }
-              },
-              "41": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "b166b88e8cc3d955ecd4d9525e4a4230c5233a": {
-                    "type": "file, ",
-                    "size": "90.93 KB"
-                  }
-                }
-              },
-              "43": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "06cfe022619b51ee572060eb403be0a89bd86b": {
-                    "type": "file, ",
-                    "size": "0.09 KB"
-                  },
-                  "c77d4bba9e1e03c30ccb18da1fdf35ff4a8285": {
-                    "type": "file, ",
-                    "size": "0.16 KB"
-                  }
-                }
-              },
-              "45": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "2bd28ec48a0eaad1feef83d6befefd9f297b9a": {
-                    "type": "file, ",
-                    "size": "0.09 KB"
-                  }
-                }
-              },
-              "52": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "6eaffce4f3a8f70245be67f4c1bb3f5227a4e4": {
-                    "type": "file, ",
-                    "size": "0.08 KB"
-                  }
-                }
-              },
-              "55": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "323fe252fb90df8cbbef20ad1543dfb77ae3f9": {
-                    "type": "file, ",
-                    "size": "0.12 KB"
-                  }
-                }
-              },
-              "56": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "a22e335a4cc061a2687c85584c19cd66b991b3": {
-                    "type": "file, ",
-                    "size": "1.32 KB"
-                  }
-                }
-              },
-              "59": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "dfae7e5bcb5159060ded0b3b6794823b559f02": {
-                    "type": "file, ",
-                    "size": "0.33 KB"
-                  },
-                  "f88df3747dc4699df00b2321f88b1549b29b63": {
-                    "type": "file, ",
-                    "size": "0.15 KB"
-                  }
-                }
-              },
-              "66": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "d6e3b4e192d2833752a5b153587fcc7e8a7a12": {
-                    "type": "file, ",
-                    "size": "0.27 KB"
-                  }
-                }
-              },
-              "68": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "e0194df12350e7d3f9adfae02d9b89602cd538": {
-                    "type": "file, ",
-                    "size": "0.09 KB"
-                  }
-                }
-              },
-              "69": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "369bd006f93efc83abf71570c2487d20b15c4e": {
-                    "type": "file, ",
-                    "size": "0.09 KB"
-                  },
-                  "62fde37032a7191dd5df5b3b5195cd243fa44a": {
-                    "type": "file, ",
-                    "size": "0.26 KB"
-                  }
-                }
-              },
-              "71": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "116faff4a264060e5088190afac2c3e085d344": {
-                    "type": "file, ",
-                    "size": "0.02 KB"
-                  }
-                }
-              },
-              "83": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "d27e8186524930dbc878f4684101f408509ab3": {
-                    "type": "file, ",
-                    "size": "0.08 KB"
-                  },
-                  "e8441697f696f266fad915a7acf056322e76ce": {
-                    "type": "file, ",
-                    "size": "0.41 KB"
-                  }
-                }
-              },
-              "84": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "24f3b1c65a8c882aa42bb8166c8ba2d1702ccc": {
-                    "type": "file, ",
-                    "size": "38.23 KB"
-                  }
-                }
-              },
-              "86": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "15dbab6d0c5df4ddbd30a79690dbccea6872bf": {
-                    "type": "file, ",
-                    "size": "0.02 KB"
-                  }
-                }
-              },
-              "90": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "ae170ccc148129253ad6ad22f3a39e737fc265": {
-                    "type": "file, ",
-                    "size": "0.79 KB"
-                  }
-                }
-              },
-              "91": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "a4ccee5c7ed2427fc935727bde2ab855fa9df2": {
-                    "type": "file, ",
-                    "size": "4344.04 KB"
-                  }
-                }
-              },
-              "92": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "5079dad9d8f2427af5c042af72d14006b38d79": {
-                    "type": "file, ",
-                    "size": "55.08 KB"
-                  }
-                }
-              },
-              "93": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "59f8c27a170eb8beede72255950956d8160b43": {
-                    "type": "file, ",
-                    "size": "0.08 KB"
-                  },
-                  "865c1c0b253e9ca0c51310ba32f3c66cced2d7": {
-                    "type": "file, ",
-                    "size": "1.26 KB"
-                  }
-                }
-              },
-              "95": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "e680cb6c962165cfbfff2bb7c1f0bbb6a3e2a1": {
-                    "type": "file, ",
-                    "size": "0.62 KB"
-                  }
-                }
-              },
-              "96": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "3192a1507e1af699c59b119d6634cb9170a201": {
-                    "type": "file, ",
-                    "size": "0.93 KB"
-                  }
-                }
-              },
-              "97": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "39e72369fffed9e401ba2eb3e9eefb27883d5d": {
-                    "type": "file, ",
-                    "size": "0.24 KB"
-                  }
-                }
-              },
-              "02": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "17ff7921adce4a32fd02e373e6587d18db4523": {
-                    "type": "file, ",
-                    "size": "0.11 KB"
-                  }
-                }
-              },
-              "03": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "25607ecb50377374b1e40bfe237b1896d160b9": {
-                    "type": "file, ",
-                    "size": "0.30 KB"
-                  }
-                }
-              },
-              "07": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "06c5a99bf771ec0fc7eeec18a11fdb4527aadb": {
-                    "type": "file, ",
-                    "size": "0.04 KB"
-                  }
-                }
-              },
-              "0b": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "71caf764810c10ad5e6c0b4f3d9e222ee5b961": {
-                    "type": "file, ",
-                    "size": "75.58 KB"
-                  }
-                }
-              },
-              "1f": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "078fe19cd3a009b9596736a455f6e71a9926bb": {
-                    "type": "file, ",
-                    "size": "824.02 KB"
-                  },
-                  "1f3c426e0c8a05d4d460a38dd3c849ba7a4763": {
-                    "type": "file, ",
-                    "size": "0.12 KB"
-                  }
-                }
-              },
-              "2c": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "caa9dfbd50b85d9130670068e6b99961fe7f10": {
-                    "type": "file, ",
-                    "size": "0.46 KB"
-                  }
-                }
-              },
-              "2d": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "73bf596c65adac07b481377d3b855f5f8d4e5e": {
-                    "type": "file, ",
-                    "size": "0.05 KB"
-                  }
-                }
-              },
-              "3f": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "4ed71c34af130f8be64011eb6b10163f2ead76": {
-                    "type": "file, ",
-                    "size": "117.26 KB"
-                  },
-                  "c76d80925b391203545b64274201de4905524c": {
-                    "type": "file, ",
-                    "size": "0.37 KB"
-                  }
-                }
-              },
-              "4a": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "ba6c41550b9428aeaab50e4d9b6752ef54a918": {
-                    "type": "file, ",
-                    "size": "0.27 KB"
-                  }
-                }
-              },
-              "4e": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "2b95b50b9cfde227db5f986a8e0297bce908f6": {
-                    "type": "file, ",
-                    "size": "0.41 KB"
-                  }
-                }
-              },
-              "4f": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "26988efa3fb752732be8c2bce992c844787b7a": {
-                    "type": "file, ",
-                    "size": "1.50 KB"
-                  }
-                }
-              },
-              "5c": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "122ddf43c8546828f5bb082b4b9f6b44069793": {
-                    "type": "file, ",
-                    "size": "0.02 KB"
-                  },
-                  "4bb5b6cfe4e3da3fb363c82848702cc94d7cd8": {
-                    "type": "file, ",
-                    "size": "0.44 KB"
-                  }
-                }
-              },
-              "6b": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "c030b3b56798819aea1aed2cd3d7014a0c16f6": {
-                    "type": "file, ",
-                    "size": "0.21 KB"
-                  }
-                }
-              },
-              "8b": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "05adde81d75aa84063070af78e5c28df7439b5": {
-                    "type": "file, ",
-                    "size": "0.47 KB"
-                  }
-                }
-              },
-              "8c": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "874f428839333b3eebcff636fd5c38ad556407": {
-                    "type": "file, ",
-                    "size": "0.91 KB"
-                  }
-                }
-              },
-              "8d": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "f1b07ff3034f398c4c7e4a648fd10b4b6f0463": {
-                    "type": "file, ",
-                    "size": "1.89 KB"
-                  }
-                }
-              },
-              "9d": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "4764cf0f19dcc8a3f4b1126cc1b09347368cfd": {
-                    "type": "file, ",
-                    "size": "0.08 KB"
-                  }
-                }
-              },
-              "9e": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "d4bec1701e932950559894456a9ebd1405c134": {
-                    "type": "file, ",
-                    "size": "0.25 KB"
-                  }
-                }
-              },
-              "9f": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "da9e5c54b0c8a4333db3fccfcb289dd3d0fe47": {
-                    "type": "file, ",
-                    "size": "0.81 KB"
-                  }
-                }
-              },
-              "a1": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "aae0ffd2e91444c46dbf00fb57459b0ef64601": {
-                    "type": "file, ",
-                    "size": "0.64 KB"
-                  }
-                }
-              },
-              "a4": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "3c686e7f8dc3dc2ff293bf6e569a4e6b7bec70": {
-                    "type": "file, ",
-                    "size": "0.04 KB"
-                  }
-                }
-              },
-              "a5": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "108f79fcfb284934acdca2096adcf5c7eddd2d": {
-                    "type": "file, ",
-                    "size": "0.83 KB"
-                  }
-                }
-              },
-              "a6": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "536d3dfc0f9013cffd9d16717855479497ce0b": {
-                    "type": "file, ",
-                    "size": "171.10 KB"
-                  },
-                  "8171777719215e3271821c883a3a00038a13c5": {
-                    "type": "file, ",
-                    "size": "0.58 KB"
-                  }
-                }
-              },
-              "a7": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "74515b5f8bc29d146220722a66f722a04bda65": {
-                    "type": "file, ",
-                    "size": "0.19 KB"
-                  },
-                  "bd36d7cbc85b4dbc84fea6740aa731c701c4e5": {
-                    "type": "file, ",
-                    "size": "0.04 KB"
-                  }
-                }
-              },
-              "ab": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "d165eab03db94fbb1cf7a037c19dd6b129ade3": {
-                    "type": "file, ",
-                    "size": "0.30 KB"
-                  }
-                }
-              },
-              "ac": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "8c6f9e09af939d3854fa52866297bebaeb1509": {
-                    "type": "file, ",
-                    "size": "1.28 KB"
-                  }
-                }
-              },
-              "ae": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "8e693d2d6532dc4b45525e1f81caf3939ef8d7": {
-                    "type": "file, ",
-                    "size": "219.95 KB"
-                  }
-                }
-              },
-              "b1": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "b0ed612e35d8e4dbe6f673c50bac46dc242dd1": {
-                    "type": "file, ",
-                    "size": "0.27 KB"
-                  }
-                }
-              },
-              "b2": {
-                "type": "folder",
-                "folders": 0,
-                "files": 2,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "300efda5ba9a9f80947111597b373af9a46c9c": {
-                    "type": "file, ",
-                    "size": "0.26 KB"
-                  },
-                  "e3b9ab85badf0970230cc5b67eccc737243a9e": {
-                    "type": "file, ",
-                    "size": "1.21 KB"
-                  }
-                }
-              },
-              "b6": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "d7ef105d4e94aa4842d1bb4f8493b91b22961e": {
-                    "type": "file, ",
-                    "size": "0.03 KB"
-                  }
-                }
-              },
-              "b7": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "4191358baa50e08ab3afd290756008bd4b076a": {
-                    "type": "file, ",
-                    "size": "0.75 KB"
-                  }
-                }
-              },
-              "bc": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "c03079ea95b0f583effdf1e261c7ebb2664fd4": {
-                    "type": "file, ",
-                    "size": "51.24 KB"
-                  }
-                }
-              },
-              "bd": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "84df11bc34698ca115d515f1aa3b5109d97b14": {
-                    "type": "file, ",
-                    "size": "0.08 KB"
-                  }
-                }
-              },
-              "bf": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "f16a75e74b8a7a42bab3120dfa813cd57c1a97": {
-                    "type": "file, ",
-                    "size": "1.74 KB"
-                  }
-                }
-              },
-              "c1": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "7f84b433b5d3757cffd0ba95febdf0bb28b845": {
-                    "type": "file, ",
-                    "size": "0.39 KB"
-                  }
-                }
-              },
-              "c2": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "cc248d99791f30a813526ce8892921b2cb34da": {
-                    "type": "file, ",
-                    "size": "217.83 KB"
-                  }
-                }
-              },
-              "c6": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "660497912cc41e346110d49157076f03f40beb": {
-                    "type": "file, ",
-                    "size": "0.14 KB"
-                  }
-                }
-              },
-              "c9": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "7d2601558647af3398fbef8495a7bf45165dcd": {
-                    "type": "file, ",
-                    "size": "7.07 KB"
-                  }
-                }
-              },
-              "cc": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "6c098c553993a7384cfc4651734e7093afd4c8": {
-                    "type": "file, ",
-                    "size": "0.19 KB"
-                  }
-                }
-              },
-              "cd": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "501835eaa10b63ddd9ae6ad0ee5ee829e0f57a": {
-                    "type": "file, ",
-                    "size": "583.77 KB"
-                  }
-                }
-              },
-              "d1": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "4c1e39f19a3a578bf172deb5a55106f4765b0b": {
-                    "type": "file, ",
-                    "size": "0.08 KB"
-                  }
-                }
-              },
-              "d2": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "45f8736f9c47d0ce6b74d78343c98ef5b323f3": {
-                    "type": "file, ",
-                    "size": "1.26 KB"
-                  }
-                }
-              },
-              "d8": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "bc49afc7f91ef456646bc9c3c723d19ba8245d": {
-                    "type": "file, ",
-                    "size": "0.44 KB"
-                  }
-                }
-              },
-              "d9": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "a7677b0fe9a5fe36182f68e79562f5623e5e40": {
-                    "type": "file, ",
-                    "size": "40.22 KB"
-                  }
-                }
-              },
-              "dc": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "1faeb2be2f68429034ea71f7bae162de4f6ee8": {
-                    "type": "file, ",
-                    "size": "0.15 KB"
-                  }
-                }
-              },
-              "dd": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "341d4b70b2167d325fb8edb0804fff3f174795": {
-                    "type": "file, ",
-                    "size": "0.20 KB"
-                  }
-                }
-              },
-              "e6": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "c98b39a04108aa79db003ef583ffcfc30f9494": {
-                    "type": "file, ",
-                    "size": "174.17 KB"
-                  }
-                }
-              },
-              "e8": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "71ff637ba0beaac6643923a66098a662c2f631": {
-                    "type": "file, ",
-                    "size": "0.25 KB"
-                  }
-                }
-              },
-              "f3": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "6983eb153784a058b97f6637d9f6dd671be1a2": {
-                    "type": "file, ",
-                    "size": "1.25 KB"
-                  }
-                }
-              },
-              "f7": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "536aa30b9fe82f561abd3a03dbca46c8f2d230": {
-                    "type": "file, ",
-                    "size": "0.02 KB"
-                  }
-                }
-              },
-              "fc": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "a9562447ca9c4087aa3727fba8b00053a26e60": {
-                    "type": "file, ",
-                    "size": "2.81 KB"
-                  }
-                }
-              },
-              "info": {
-                "type": "folder",
-                "folders": 0,
-                "files": 0,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {}
-              },
-              "pack": {
-                "type": "folder",
-                "folders": 0,
-                "files": 0,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {}
-              }
-            }
-          },
-          "refs": {
-            "type": "folder",
-            "folders": 3,
-            "files": 0,
-            "hasIndexHTML": false,
-            "size": "0",
-            "contents": {
-              "heads": {
-                "type": "folder",
-                "folders": 0,
-                "files": 1,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "main": {
-                    "type": "file, ",
-                    "size": "0.04 KB"
-                  }
-                }
-              },
-              "remotes": {
-                "type": "folder",
-                "folders": 1,
-                "files": 0,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {
-                  "origin": {
-                    "type": "folder",
-                    "folders": 0,
-                    "files": 2,
-                    "hasIndexHTML": false,
-                    "size": "0",
-                    "contents": {
-                      "HEAD": {
-                        "type": "file, ",
-                        "size": "0.03 KB"
-                      },
-                      "main": {
-                        "type": "file, ",
-                        "size": "0.04 KB"
-                      }
-                    }
-                  }
-                }
-              },
-              "tags": {
-                "type": "folder",
-                "folders": 0,
-                "files": 0,
-                "hasIndexHTML": false,
-                "size": "0",
-                "contents": {}
-              }
-            }
-          },
-          "shallow": {
-            "type": "file, ",
-            "size": "0.04 KB"
-          }
-        }
-      },
       ".github": {
         "type": "folder",
         "folders": 1,
         "files": 0,
         "hasIndexHTML": false,
-        "size": "0",
+        "size": 8997,
         "contents": {
           "workflows": {
             "type": "folder",
             "folders": 0,
             "files": 5,
             "hasIndexHTML": false,
-            "size": "0",
+            "size": 8997,
             "contents": {
               "generate-manifest.yml": {
                 "type": "file, YML",
-                "size": "0.76 KB"
+                "size": 774
               },
               "github_data_fetcher.yml": {
                 "type": "file, YML",
-                "size": "4.01 KB"
+                "size": 4106
               },
               "global_manifest.yml": {
                 "type": "file, YML",
-                "size": "2.20 KB"
+                "size": 2397
               },
               "manual-command-runner.yml": {
                 "type": "file, YML",
-                "size": "0.89 KB"
+                "size": 916
               },
               "node-setup.yml": {
                 "type": "file, YML",
-                "size": "0.79 KB"
+                "size": 804
               }
             }
           }
@@ -1434,53 +46,53 @@
       },
       ".gitignore": {
         "type": "file, ",
-        "size": "0.01 KB"
+        "size": 12
       },
       "LICENSE": {
         "type": "file, ",
-        "size": "1.04 KB"
+        "size": 1062
       },
       "README.md": {
         "type": "file, MD",
-        "size": "0.25 KB"
+        "size": 260
       },
       "chronoquest__deprecated__": {
         "type": "folder",
         "folders": 1,
         "files": 2,
         "hasIndexHTML": false,
-        "size": "0",
+        "size": 28610,
         "contents": {
           "adv.html": {
             "type": "file, HTML",
-            "size": "0.43 KB"
+            "size": 439
           },
           "description.md": {
             "type": "file, MD",
-            "size": "0.07 KB"
+            "size": 69
           },
           "src": {
             "type": "folder",
             "folders": 0,
             "files": 4,
             "hasIndexHTML": false,
-            "size": "0",
+            "size": 28102,
             "contents": {
               "main.js": {
                 "type": "file, JS",
-                "size": "1.14 KB"
+                "size": 1163
               },
               "old.story.js": {
                 "type": "file, JS",
-                "size": "18.25 KB"
+                "size": 18686
               },
               "story.js": {
                 "type": "file, JS",
-                "size": "7.52 KB"
+                "size": 7698
               },
               "styles.css": {
                 "type": "file, CSS",
-                "size": "0.54 KB"
+                "size": 555
               }
             }
           }
@@ -1491,67 +103,67 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": "0",
+        "size": 68268,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
-            "size": "3.33 KB"
+            "size": 3407
           },
           "const-styles.css": {
             "type": "file, CSS",
-            "size": "3.59 KB"
+            "size": 3681
           },
           "description.md": {
             "type": "file, MD",
-            "size": "0.07 KB"
+            "size": 68
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": "55.46 KB"
+            "size": 56790
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
-            "size": "3.61 KB"
+            "size": 3692
           },
           "script.js": {
             "type": "file, JS",
-            "size": "0.62 KB"
+            "size": 630
           }
         }
       },
       "index.html": {
         "type": "file, HTML",
-        "size": "3.56 KB"
+        "size": 3649
       },
       "journal": {
         "type": "folder",
         "folders": 2,
         "files": 1,
         "hasIndexHTML": false,
-        "size": "0",
+        "size": 4930,
         "contents": {
           ".gitignore": {
             "type": "file, ",
-            "size": "0.02 KB"
+            "size": 21
           },
           "backend": {
             "type": "folder",
             "folders": 0,
             "files": 3,
             "hasIndexHTML": false,
-            "size": "0",
+            "size": 2836,
             "contents": {
               "db.js": {
                 "type": "file, JS",
-                "size": "0.60 KB"
+                "size": 613
               },
               "package.json": {
                 "type": "file, JSON",
-                "size": "0.24 KB"
+                "size": 249
               },
               "server.js": {
                 "type": "file, JS",
-                "size": "1.93 KB"
+                "size": 1974
               }
             }
           },
@@ -1560,15 +172,15 @@
             "folders": 0,
             "files": 2,
             "hasIndexHTML": true,
-            "size": "0",
+            "size": 2073,
             "contents": {
               "app.js": {
                 "type": "file, JS",
-                "size": "1.18 KB"
+                "size": 1212
               },
               "index.html": {
                 "type": "file, HTML",
-                "size": "0.84 KB"
+                "size": 861
               }
             }
           }
@@ -1579,27 +191,27 @@
         "folders": 0,
         "files": 5,
         "hasIndexHTML": true,
-        "size": "0",
+        "size": 10477,
         "contents": {
           "arith.html": {
             "type": "file, HTML",
-            "size": "2.00 KB"
+            "size": 2052
           },
           "description.md": {
             "type": "file, MD",
-            "size": "0.10 KB"
+            "size": 98
           },
           "functions.js": {
             "type": "file, JS",
-            "size": "6.29 KB"
+            "size": 6439
           },
           "index.html": {
             "type": "file, HTML",
-            "size": "1.36 KB"
+            "size": 1396
           },
           "styles.css": {
             "type": "file, CSS",
-            "size": "0.48 KB"
+            "size": 492
           }
         }
       },
@@ -1608,91 +220,91 @@
         "folders": 1,
         "files": 6,
         "hasIndexHTML": true,
-        "size": "0",
+        "size": 18887,
         "contents": {
           ".dungeon": {
             "type": "folder",
             "folders": 0,
             "files": 2,
             "hasIndexHTML": false,
-            "size": "0",
+            "size": 7259,
             "contents": {
               "const-dark.css": {
                 "type": "file, CSS",
-                "size": "3.54 KB"
+                "size": 3620
               },
               "const-styles.css": {
                 "type": "file, CSS",
-                "size": "3.55 KB"
+                "size": 3639
               }
             }
           },
           "description.md": {
             "type": "file, MD",
-            "size": "0.10 KB"
+            "size": 107
           },
           "index.html": {
             "type": "file, HTML",
-            "size": "0.68 KB"
+            "size": 699
           },
           "proj-cont-generator.js": {
             "type": "file, JS",
-            "size": "5.15 KB"
+            "size": 5276
           },
           "proj-dark.css": {
             "type": "file, CSS",
-            "size": "0.02 KB"
+            "size": 17
           },
           "proj-styles.css": {
             "type": "file, CSS",
-            "size": "1.70 KB"
+            "size": 1744
           },
           "projects.html": {
             "type": "file, HTML",
-            "size": "3.70 KB"
+            "size": 3785
           }
         }
       },
       "package.json": {
         "type": "file, JSON",
-        "size": "0.11 KB"
+        "size": 111
       },
       "project_cs": {
         "type": "folder",
         "folders": 2,
         "files": 5,
         "hasIndexHTML": true,
-        "size": "0",
+        "size": 7798244,
         "contents": {
           "ans": {
             "type": "folder",
             "folders": 1,
             "files": 0,
             "hasIndexHTML": false,
-            "size": "0",
+            "size": 28,
             "contents": {
               "keys": {
                 "type": "folder",
                 "folders": 0,
                 "files": 4,
                 "hasIndexHTML": false,
-                "size": "0",
+                "size": 28,
                 "contents": {
                   "091524.txt": {
                     "type": "file, TXT",
-                    "size": "0.01 KB"
+                    "size": 7
                   },
                   "091924.txt": {
                     "type": "file, TXT",
-                    "size": "0.01 KB"
+                    "size": 7
                   },
                   "default.txt": {
                     "type": "file, TXT",
-                    "size": "0.01 KB"
+                    "size": 7
                   },
                   "workflow-test.txt": {
                     "type": "file, TXT",
-                    "size": "0.01 KB"
+                    "size": 7
                   }
                 }
               }
@@ -1700,49 +312,49 @@
           },
           "description.md": {
             "type": "file, MD",
-            "size": "0.07 KB"
+            "size": 70
           },
           "folder-manifest.json": {
             "type": "file, JSON",
-            "size": "0.08 KB"
+            "size": 87
           },
           "generateManifest.js": {
             "type": "file, JS",
-            "size": "1.59 KB"
+            "size": 1624
           },
           "index.html": {
             "type": "file, HTML",
-            "size": "1.88 KB"
+            "size": 1929
           },
           "project_cs.md": {
             "type": "file, MD",
-            "size": "0.35 KB"
+            "size": 356
           },
           "safezone": {
             "type": "folder",
             "folders": 4,
             "files": 3,
             "hasIndexHTML": true,
-            "size": "0",
+            "size": 7794150,
             "contents": {
               "091524": {
                 "type": "folder",
                 "folders": 0,
                 "files": 3,
                 "hasIndexHTML": false,
-                "size": "0",
+                "size": 4678511,
                 "contents": {
                   "notice.txt": {
                     "type": "file, TXT",
-                    "size": "0.19 KB"
+                    "size": 191
                   },
                   "pic.jpg": {
                     "type": "file, JPG",
-                    "size": "4348.38 KB"
+                    "size": 4452739
                   },
                   "pic2.jpg": {
                     "type": "file, JPG",
-                    "size": "220.29 KB"
+                    "size": 225581
                   }
                 }
               },
@@ -1751,113 +363,113 @@
                 "folders": 0,
                 "files": 9,
                 "hasIndexHTML": false,
-                "size": "0",
+                "size": 1297388,
                 "contents": {
                   "Untitled19_20240919204804.jpg": {
                     "type": "file, JPG",
-                    "size": "630.47 KB"
+                    "size": 645600
                   },
                   "Untitled20.png": {
                     "type": "file, PNG",
-                    "size": "177.60 KB"
+                    "size": 181858
                   },
                   "Untitled20~2.png": {
                     "type": "file, PNG",
-                    "size": "40.60 KB"
+                    "size": 41572
                   },
                   "Untitled20~3.png": {
                     "type": "file, PNG",
-                    "size": "55.65 KB"
+                    "size": 56990
                   },
                   "Untitled20~4.png": {
                     "type": "file, PNG",
-                    "size": "38.88 KB"
+                    "size": 39813
                   },
                   "Untitled21_20240919222842.png": {
                     "type": "file, PNG",
-                    "size": "179.53 KB"
+                    "size": 183839
                   },
                   "Untitled21_20240919222842~2.png": {
                     "type": "file, PNG",
-                    "size": "51.86 KB"
+                    "size": 53104
                   },
                   "Untitled21_20240919222842~3.png": {
                     "type": "file, PNG",
-                    "size": "92.02 KB"
+                    "size": 94232
                   },
                   "notice.txt": {
                     "type": "file, TXT",
-                    "size": "0.37 KB"
+                    "size": 380
                   }
                 }
               },
               "folder.html": {
                 "type": "file, HTML",
-                "size": "7.54 KB"
+                "size": 7720
               },
               "good-item": {
                 "type": "folder",
                 "folders": 0,
                 "files": 5,
                 "hasIndexHTML": false,
-                "size": "0",
+                "size": 645488,
                 "contents": {
                   "-yyatfv.jpg": {
                     "type": "file, JPG",
-                    "size": "220.29 KB"
+                    "size": 225581
                   },
                   "Screenshot_20240912-000449.png": {
                     "type": "file, PNG",
-                    "size": "14.19 KB"
+                    "size": 14526
                   },
                   "Screenshot_20240912-211642.png": {
                     "type": "file, PNG",
-                    "size": "223.38 KB"
+                    "size": 228738
                   },
                   "Screenshot_20240913-184433.png": {
                     "type": "file, PNG",
-                    "size": "51.92 KB"
+                    "size": 53161
                   },
                   "message.jpg": {
                     "type": "file, JPG",
-                    "size": "120.59 KB"
+                    "size": 123482
                   }
                 }
               },
               "index.html": {
                 "type": "file, HTML",
-                "size": "1.44 KB"
+                "size": 1479
               },
               "manifest.json": {
                 "type": "file, JSON",
-                "size": "0.58 KB"
+                "size": 598
               },
               "workflow-test": {
                 "type": "folder",
                 "folders": 0,
                 "files": 5,
                 "hasIndexHTML": false,
-                "size": "0",
+                "size": 1162966,
                 "contents": {
                   "Screenshot_20240910-063242.png": {
                     "type": "file, PNG",
-                    "size": "826.34 KB"
+                    "size": 846174
                   },
                   "notice.txt": {
                     "type": "file, TXT",
-                    "size": "0.02 KB"
+                    "size": 25
                   },
                   "pic.jpg": {
                     "type": "file, JPG",
-                    "size": "88.96 KB"
+                    "size": 91100
                   },
                   "pic2.jpg": {
                     "type": "file, JPG",
-                    "size": "0.08 KB"
+                    "size": 86
                   },
                   "pic3.jpg": {
                     "type": "file, JPG",
-                    "size": "220.29 KB"
+                    "size": 225581
                   }
                 }
               }
@@ -1870,15 +482,15 @@
         "folders": 0,
         "files": 2,
         "hasIndexHTML": false,
-        "size": "0",
+        "size": 123562,
         "contents": {
           "info.txt": {
             "type": "file, TXT",
-            "size": "0.08 KB"
+            "size": 80
           },
           "message.jpg": {
             "type": "file, JPG",
-            "size": "120.59 KB"
+            "size": 123482
           }
         }
       }
