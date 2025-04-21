@@ -1,4 +1,4 @@
-name: Generate Manifest
+name: Generate Global Manifest
 
 on:
   push:
