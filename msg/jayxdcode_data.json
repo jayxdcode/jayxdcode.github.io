@@ -1,0 +1,131 @@
+{
+  "lastUpdate": 20250422,
+  "pinnedRepos": [
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "stargazerCount": 1,
+      "forkCount": 0,
+      "updatedAt": "2025-04-21T05:48:42Z"
+    },
+    {
+      "name": "Translation-Fix",
+      "url": "https://github.com/jayxdcode/Translation-Fix",
+      "description": "A multilingual Android application for streaming music from YouTube Music.",
+      "stargazerCount": 1,
+      "forkCount": 0,
+      "updatedAt": "2025-03-08T23:34:25Z"
+    },
+    {
+      "name": "article-scraper-repo",
+      "url": "https://github.com/jayxdcode/article-scraper-repo",
+      "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
+      "stargazerCount": 2,
+      "forkCount": 0,
+      "updatedAt": "2025-04-21T23:08:42Z"
+    },
+    {
+      "name": "tdpg",
+      "url": "https://github.com/jayxdcode/tdpg",
+      "description": "TDPG (Temporal Dynamic Password Generator) is a password generator that uses different parameters like date & time, browser version, and device window width or height.",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "updatedAt": "2024-07-23T16:46:49Z"
+    }
+  ],
+  "latestModifiedRepos": [
+    {
+      "name": "article-scraper-repo",
+      "url": "https://github.com/jayxdcode/article-scraper-repo",
+      "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
+      "updatedAt": "2025-04-21T23:08:42Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "scrapy_api",
+      "url": "https://github.com/jayxdcode/scrapy_api",
+      "description": "Personal Access API",
+      "updatedAt": "2025-04-21T22:24:36Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-04-21T05:48:42Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "journal",
+      "url": "https://github.com/jayxdcode/journal",
+      "description": null,
+      "updatedAt": "2025-04-07T04:07:32Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Translation-Fix",
+      "url": "https://github.com/jayxdcode/Translation-Fix",
+      "description": "A multilingual Android application for streaming music from YouTube Music.",
+      "updatedAt": "2025-03-08T23:34:25Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "translation-bridge",
+      "url": "https://github.com/jayxdcode/translation-bridge",
+      "description": null,
+      "updatedAt": "2025-03-06T09:37:49Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "scrapy",
+      "url": "https://github.com/jayxdcode/scrapy",
+      "description": "ScraPY",
+      "updatedAt": "2025-01-14T06:26:53Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    }
+  ],
+  "mostCommittedRepos": []
+}
