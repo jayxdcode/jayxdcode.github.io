@@ -10,6 +10,10 @@ body.dark {
   font-family: Arial, sans-serif;
 }
 
+body.dark #header, body.dark #bodyf, body.dark #footer {
+  background-color: #050505;
+}
+
 body.dark #header {
   height: 70px;
   width: 100%;

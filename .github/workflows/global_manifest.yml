@@ -33,7 +33,7 @@ jobs:
 
             const entries = fs.readdirSync(dirPath);
             for (const entry of entries) {
-              if (entry === '.git') continue; // Skip .git folder
+              if (entry === '.git') continue;
               const fullPath = path.join(dirPath, entry);
               const entryStats = fs.statSync(fullPath);
 
@@ -53,7 +53,22 @@ jobs:
               }
             }
 
+            // Sort contents after building
+            result.contents = sortContents(result.contents);
             return result;
+          }
+
+          function sortContents(contents) {
+            return Object.fromEntries(
+              Object.entries(contents)
+                .sort((a, b) => {
+                  const [aName, aVal] = a;
+                  const [bName, bVal] = b;
+                  if (aVal.type === 'folder' && bVal.type !== 'folder') return -1;
+                  if (aVal.type !== 'folder' && bVal.type === 'folder') return 1;
+                  return aName.localeCompare(bName);
+                })
+            );
           }
 
           const manifest = {

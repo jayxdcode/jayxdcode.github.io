@@ -1,45 +1,45 @@
 #bodyf {
-  flex-direction: column;
+	flex-direction: column;
 }
 
 .title {
-  margin: 50px 0;
-  width: 100%;
-  display: block;
-  font-size: 1.5rem;
-  max-height: 2rem;
-  height: auto;
-  
-  text-align: center;
-  font-weight: bold;
-  
-  position: relative;
+	margin: 50px 0;
+	width: 100%;
+	display: block;
+	font-size: 1.5rem;
+	max-height: 2rem;
+	height: auto;
+	
+	text-align: center;
+	font-weight: bold;
+	
+	position: relative;
 }
 
 .projSection {
-  min-height: 200px;
-  height: auto;
-  flex-grow: 1;
-  justify-content: center;
-  
-  box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
-  border: 3px solid #444;
-  border-radius: 10px;
-  
-  margin: 15px;
+	min-height: 200px;
+	height: auto;
+	flex-grow: 1;
+	justify-content: center;
+	
+	box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
+	border: 3px solid #444;
+	border-radius: 10px;
+	
+	margin: 15px;
 }
 
 .projSection .t2 {
-  text-align: center;
-  padding: 25px;
-  margin-bottom: 7px;
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 7px;
 }
 
-.projSection .sectionItem {
+.sectionItem {
 	min-height: 150px;
-	padding: 15px 10px;
 	text-align: center;
-	margin-bottom: 15px; /* add spacing between items */
+	margin-bottom: 15px;
+	/* add spacing between items */
 }
 
 .repoItem {
@@ -47,6 +47,7 @@
 	text-align: left;
 	border-top: 1px solid #ddd;
 	padding: 10px 20px;
+	margin: 0 .5em;
 	text-decoration: none;
 	color: inherit;
 	transition: background 0.3s;
@@ -72,20 +73,24 @@
 	margin: 4px 0;
 }
 
-.repoStats, .upd, .down-overlay-text{
+.repoStats,
+.upd,
+.down-overlay-text {
 	font-size: 0.8rem;
 	color: #999;
 	display: flex;
 	
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: left; /* better horizontal alignment */
+	justify-content: left;
+	/* better horizontal alignment */
 	gap: 10px;
 	margin-top: 10px;
 }
 
 .updated {
-	top: 3px; /* reset margin for cleaner alignment */
+	top: 3px;
+	/* reset margin for cleaner alignment */
 }
 
 .feature-down {
@@ -109,4 +114,114 @@
 	color: white;
 	font-size: 1.5em;
 	text-align: center;
+}
+
+#exclusive {
+	max-height: 750px;
+	overflow-y: auto;
+	margin: 0 2em 0 0;
+}
+
+#exclusive:first-child {
+	padding-top: 1.5em;
+}
+
+#exclusive:last-child {
+	padding-bottom: 2em;
+}
+
+#exclusive * {
+	background-color: inherit;
+}
+
+.folderItem,
+.fileItem {
+	display: block;
+	text-align: left;
+	margin: 2em 0 0 2em;
+	text-decoration: none;
+	color: inherit;
+	transition: background 0.3s;
+	
+	box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
+	border: 2px solid #444;
+	border-radius: 10px;
+}
+
+.folderItem:first-child {
+	margin-top: 0;
+}
+
+.folderItem span,
+.fileItem span {
+	padding-left: .5em;
+}
+
+.folderItem {
+	padding-bottom: 1em;
+	height: 130px;
+	overflow: hidden;
+	
+	transition: all 0.25s ease;
+}
+
+.folderItem .fileItem,
+.folderItem .folderItem {
+	margin-top: 1em;
+}
+
+.folderItem * {
+	border-right: none;
+}
+
+.fileHeader {
+	margin-top: 1em;
+}
+
+.folderHeader {
+	height: 130px;
+	margin: 20px 0 20px 0;
+	border-bottom: 3px solid #444;
+	border-radius: 0 0 10px 10px;
+}
+
+.folderItem .folderHeader {
+	margin-top: 30px;
+}
+
+.folderDetails {
+	padding: 0 0 0 1.5em;
+	height: 30px;
+}
+
+.folderDetails,
+.fileDetails {
+	padding-bottom: 1em;
+}
+
+.fileItem {
+	padding-bottom: 1em;
+}
+
+.opentxt {
+	font-size: .3em;
+}
+
+.folderActions span,
+.fileActions span {
+	font-size: 1em;
+	padding-top: 0.35em;
+}
+
+.folderActions,
+.fileActions,
+.folderDetails,
+.fileDetails {
+	padding-top: 0.5em;
+}
+
+/* Show/Hide Style & Transitions */
+
+.folderItem.expanded {
+	height: auto;
 }
