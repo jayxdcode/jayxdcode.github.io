@@ -4,21 +4,21 @@
     "folders": 8,
     "files": 5,
     "hasIndexHTML": true,
-    "size": 8067069,
+    "size": 8031166,
     "contents": {
       ".github": {
         "type": "folder",
         "folders": 1,
         "files": 0,
         "hasIndexHTML": false,
-        "size": 8997,
+        "size": 9589,
         "contents": {
           "workflows": {
             "type": "folder",
             "folders": 0,
             "files": 5,
             "hasIndexHTML": false,
-            "size": 8997,
+            "size": 9589,
             "contents": {
               "generate-manifest.yml": {
                 "type": "file, YML",
@@ -30,7 +30,7 @@
               },
               "global_manifest.yml": {
                 "type": "file, YML",
-                "size": 2397
+                "size": 2989
               },
               "manual-command-runner.yml": {
                 "type": "file, YML",
@@ -44,18 +44,6 @@
           }
         }
       },
-      ".gitignore": {
-        "type": "file, ",
-        "size": 12
-      },
-      "LICENSE": {
-        "type": "file, ",
-        "size": 1062
-      },
-      "README.md": {
-        "type": "file, MD",
-        "size": 260
-      },
       "chronoquest__deprecated__": {
         "type": "folder",
         "folders": 1,
@@ -63,14 +51,6 @@
         "hasIndexHTML": false,
         "size": 28610,
         "contents": {
-          "adv.html": {
-            "type": "file, HTML",
-            "size": 439
-          },
-          "description.md": {
-            "type": "file, MD",
-            "size": 69
-          },
           "src": {
             "type": "folder",
             "folders": 0,
@@ -95,6 +75,14 @@
                 "size": 555
               }
             }
+          },
+          "adv.html": {
+            "type": "file, HTML",
+            "size": 439
+          },
+          "description.md": {
+            "type": "file, MD",
+            "size": 69
           }
         }
       },
@@ -103,15 +91,15 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 68268,
+        "size": 24849,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
-            "size": 3407
+            "size": 3496
           },
           "const-styles.css": {
             "type": "file, CSS",
-            "size": 3681
+            "size": 3742
           },
           "description.md": {
             "type": "file, MD",
@@ -119,7 +107,7 @@
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 56790
+            "size": 13221
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
@@ -131,10 +119,6 @@
           }
         }
       },
-      "index.html": {
-        "type": "file, HTML",
-        "size": 3649
-      },
       "journal": {
         "type": "folder",
         "folders": 2,
@@ -142,10 +126,6 @@
         "hasIndexHTML": false,
         "size": 4930,
         "contents": {
-          ".gitignore": {
-            "type": "file, ",
-            "size": 21
-          },
           "backend": {
             "type": "folder",
             "folders": 0,
@@ -183,6 +163,10 @@
                 "size": 861
               }
             }
+          },
+          ".gitignore": {
+            "type": "file, ",
+            "size": 21
           }
         }
       },
@@ -218,9 +202,9 @@
       "msg": {
         "type": "folder",
         "folders": 1,
-        "files": 6,
+        "files": 7,
         "hasIndexHTML": true,
-        "size": 18887,
+        "size": 25793,
         "contents": {
           ".dungeon": {
             "type": "folder",
@@ -247,9 +231,13 @@
             "type": "file, HTML",
             "size": 699
           },
+          "jayxdcode_data.json": {
+            "type": "file, JSON",
+            "size": 3740
+          },
           "proj-cont-generator.js": {
             "type": "file, JS",
-            "size": 5276
+            "size": 7048
           },
           "proj-dark.css": {
             "type": "file, CSS",
@@ -257,17 +245,13 @@
           },
           "proj-styles.css": {
             "type": "file, CSS",
-            "size": 1744
+            "size": 3138
           },
           "projects.html": {
             "type": "file, HTML",
             "size": 3785
           }
         }
-      },
-      "package.json": {
-        "type": "file, JSON",
-        "size": 111
       },
       "project_cs": {
         "type": "folder",
@@ -310,26 +294,6 @@
               }
             }
           },
-          "description.md": {
-            "type": "file, MD",
-            "size": 70
-          },
-          "folder-manifest.json": {
-            "type": "file, JSON",
-            "size": 87
-          },
-          "generateManifest.js": {
-            "type": "file, JS",
-            "size": 1624
-          },
-          "index.html": {
-            "type": "file, HTML",
-            "size": 1929
-          },
-          "project_cs.md": {
-            "type": "file, MD",
-            "size": 356
-          },
           "safezone": {
             "type": "folder",
             "folders": 4,
@@ -365,6 +329,10 @@
                 "hasIndexHTML": false,
                 "size": 1297388,
                 "contents": {
+                  "notice.txt": {
+                    "type": "file, TXT",
+                    "size": 380
+                  },
                   "Untitled19_20240919204804.jpg": {
                     "type": "file, JPG",
                     "size": 645600
@@ -396,16 +364,8 @@
                   "Untitled21_20240919222842~3.png": {
                     "type": "file, PNG",
                     "size": 94232
-                  },
-                  "notice.txt": {
-                    "type": "file, TXT",
-                    "size": 380
                   }
                 }
-              },
-              "folder.html": {
-                "type": "file, HTML",
-                "size": 7720
               },
               "good-item": {
                 "type": "folder",
@@ -418,6 +378,10 @@
                     "type": "file, JPG",
                     "size": 225581
                   },
+                  "message.jpg": {
+                    "type": "file, JPG",
+                    "size": 123482
+                  },
                   "Screenshot_20240912-000449.png": {
                     "type": "file, PNG",
                     "size": 14526
@@ -429,20 +393,8 @@
                   "Screenshot_20240913-184433.png": {
                     "type": "file, PNG",
                     "size": 53161
-                  },
-                  "message.jpg": {
-                    "type": "file, JPG",
-                    "size": 123482
                   }
                 }
-              },
-              "index.html": {
-                "type": "file, HTML",
-                "size": 1479
-              },
-              "manifest.json": {
-                "type": "file, JSON",
-                "size": 598
               },
               "workflow-test": {
                 "type": "folder",
@@ -451,10 +403,6 @@
                 "hasIndexHTML": false,
                 "size": 1162966,
                 "contents": {
-                  "Screenshot_20240910-063242.png": {
-                    "type": "file, PNG",
-                    "size": 846174
-                  },
                   "notice.txt": {
                     "type": "file, TXT",
                     "size": 25
@@ -470,10 +418,46 @@
                   "pic3.jpg": {
                     "type": "file, JPG",
                     "size": 225581
+                  },
+                  "Screenshot_20240910-063242.png": {
+                    "type": "file, PNG",
+                    "size": 846174
                   }
                 }
+              },
+              "folder.html": {
+                "type": "file, HTML",
+                "size": 7720
+              },
+              "index.html": {
+                "type": "file, HTML",
+                "size": 1479
+              },
+              "manifest.json": {
+                "type": "file, JSON",
+                "size": 598
               }
             }
+          },
+          "description.md": {
+            "type": "file, MD",
+            "size": 70
+          },
+          "folder-manifest.json": {
+            "type": "file, JSON",
+            "size": 87
+          },
+          "generateManifest.js": {
+            "type": "file, JS",
+            "size": 1624
+          },
+          "index.html": {
+            "type": "file, HTML",
+            "size": 1929
+          },
+          "project_cs.md": {
+            "type": "file, MD",
+            "size": 356
           }
         }
       },
@@ -493,6 +477,26 @@
             "size": 123482
           }
         }
+      },
+      ".gitignore": {
+        "type": "file, ",
+        "size": 12
+      },
+      "index.html": {
+        "type": "file, HTML",
+        "size": 3667
+      },
+      "LICENSE": {
+        "type": "file, ",
+        "size": 1062
+      },
+      "package.json": {
+        "type": "file, JSON",
+        "size": 111
+      },
+      "README.md": {
+        "type": "file, MD",
+        "size": 260
       }
     }
   }
