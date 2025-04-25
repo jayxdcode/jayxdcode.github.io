@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 5,
     "hasIndexHTML": true,
-    "size": 8030126,
+    "size": 8029852,
     "contents": {
       ".github": {
         "type": "folder",
@@ -91,7 +91,7 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24957,
+        "size": 24760,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
@@ -107,7 +107,7 @@
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 13329
+            "size": 13132
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
@@ -204,7 +204,7 @@
         "folders": 1,
         "files": 5,
         "hasIndexHTML": false,
-        "size": 24576,
+        "size": 24499,
         "contents": {
           ".dungeon": {
             "type": "folder",
@@ -237,11 +237,11 @@
           },
           "proj-dark.css": {
             "type": "file, CSS",
-            "size": 903
+            "size": 832
           },
           "proj-styles.css": {
             "type": "file, CSS",
-            "size": 4632
+            "size": 4626
           }
         }
       },
