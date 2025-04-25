@@ -21,40 +21,46 @@ function formatSize(bytes) {
   return `${bytes} B`;
 }
 
-function createFileHTML(name, file) {
+function createFileHTML(name, file, last = false) {
   return `
-<div class="fileItem">
+<div class="fileItem${last == true ? " lastItem" : ""}">
   <div class="fileHeader">
     <span class="fileName">${name}</span>
   </div>
   <div class="fileDetails">
     <span class="material-symbols-outlined">database</span> <span id="size">${formatSize(file.size)}</span>
   </div>
-  <span class="fileActions openBtn">
+  <span class="fileActions openBtn clickable">
     <span class="material-symbols-outlined">open_in_new</span> <span class="opentxt">Open File</span>
   </span>
 </div>`;
 }
 
 function generateProjectSectionHTML(manifest) {
-  function createFolderHTML(name, folder) {
+  function createFolderHTML(name, folder, last = false) {
+    
     let fileCount = 0,
       folderCount = 0,
       totalSize = 0;
     let childrenHTML = '';
     
+    let totalChildren = folder.files + folder.folders;
+    let childCount = 0;
+    
     for (const [childName, child] of Object.entries(folder.contents)) {
       if (child.type === 'folder') {
         folderCount++;
-        const result = createFolderHTML(childName, child);
+        childCount++;
+        const result = createFolderHTML(childName, child, childCount == totalChildren);
         childrenHTML += result.html;
         fileCount += result.fileCount;
         folderCount += result.folderCount;
         totalSize += result.totalSize;
       } else {
         fileCount++;
+        childCount++;
         totalSize += child.size;
-        childrenHTML += createFileHTML(childName, child);
+        childrenHTML += createFileHTML(childName, child, childCount == totalChildren);
       }
     }
     
@@ -62,8 +68,8 @@ function generateProjectSectionHTML(manifest) {
       html: `
 <div class="folder folderItem">
   <div class="lineConnect"></div>
-  <div class="folderHeader">
-    <span class="dropdownIcon material-symbols-outlined">expand_more</span>
+  <div class="folderHeader${last == true ? " lastItem" : ""}">
+    <span class="dropdownIcon material-symbols-outlined clickable">expand_more</span>
     <span class="folderName">${name}</span>
     <div class="folderDetails">
       <span class="folderMeta"><span class="material-symbols-outlined">folder</span> ${folderCount}</span>
@@ -200,3 +206,27 @@ fetch(manifestLoc)
     });
   })
   .catch(error => console.error("Error loading manifest:", error));
+
+
+function setLineConnector(lastItem) {
+  const container = lastItem.closest('.folderChildren');
+  if (!container) return;
+  
+  const containerRect = container.getBoundingClientRect();
+  const itemRect = lastItem.getBoundingClientRect();
+  
+  const height = itemRect.bottom - containerRect.top;
+  lastItem.style.setProperty('--connect-size', `${height}px`);
+}
+
+function updateAllConnectSizes() {
+  document.querySelectorAll('.lastItem').forEach(setLineConnector);
+}
+
+document.getElementById('exclusive')?.addEventListener('click', e => {
+  if (e.target.closest('span.dropdownIcon')) {
+    updateAllConnectSizes();
+  }
+});
+
+

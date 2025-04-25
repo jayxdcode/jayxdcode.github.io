@@ -45,3 +45,8 @@ body.dark .folderItem.expanded>.folderItem::after {
 	border-color: #aaa;
 	background-color: #aaa;
 }
+
+body.dark #exclusive,
+body.dark #exclusive div {
+	background-color: #050505;
+}
