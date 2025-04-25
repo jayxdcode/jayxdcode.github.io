@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 5,
     "hasIndexHTML": true,
-    "size": 8032919,
+    "size": 8030126,
     "contents": {
       ".github": {
         "type": "folder",
@@ -91,7 +91,7 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24956,
+        "size": 24957,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
@@ -107,7 +107,7 @@
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 13328
+            "size": 13329
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
@@ -202,9 +202,9 @@
       "msg": {
         "type": "folder",
         "folders": 1,
-        "files": 7,
-        "hasIndexHTML": true,
-        "size": 27439,
+        "files": 5,
+        "hasIndexHTML": false,
+        "size": 24576,
         "contents": {
           ".dungeon": {
             "type": "folder",
@@ -227,29 +227,21 @@
             "type": "file, MD",
             "size": 107
           },
-          "index.html": {
-            "type": "file, HTML",
-            "size": 699
-          },
           "jayxdcode_data.json": {
             "type": "file, JSON",
             "size": 3740
           },
           "proj-cont-generator.js": {
             "type": "file, JS",
-            "size": 7003
+            "size": 7935
           },
           "proj-dark.css": {
             "type": "file, CSS",
-            "size": 823
+            "size": 903
           },
           "proj-styles.css": {
             "type": "file, CSS",
-            "size": 4023
-          },
-          "projects.html": {
-            "type": "file, HTML",
-            "size": 3785
+            "size": 4632
           }
         }
       },
@@ -484,7 +476,7 @@
       },
       "index.html": {
         "type": "file, HTML",
-        "size": 3667
+        "size": 3736
       },
       "LICENSE": {
         "type": "file, ",
