@@ -21,7 +21,7 @@ body.dark .repoStats {
 body.dark .folderItem,
 body.dark .fileItem {
 	background-color: #181818;
-	border-color: #777;
+	border-color: #aaa;
 	color: #eee;
 }
 
@@ -38,10 +38,11 @@ body.dark .down-overlay-text {
 	color: #fff;
 }
 
-body.dark .folderItem.expanded>.fileItem::before,
-body.dark .folderItem.expanded>.folderItem::before,
-body.dark .folderItem.expanded>.fileItem::after,
-body.dark .folderItem.expanded>.folderItem::after {
+
+body.dark .fileItem::before,
+body.dark .childElement::before,
+body.dark .lastItem:after,
+body.dark .folderHeader.lastItem::after {
 	border-color: #aaa;
 	background-color: #aaa;
 }

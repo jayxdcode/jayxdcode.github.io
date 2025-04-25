@@ -136,7 +136,7 @@
 }
 
 #exclusive * {
-	transition: all 0.25s ease;
+	transition: all 0.5s ease;
 }
 
 #exclusive,
@@ -198,7 +198,7 @@
 .folderHeader {
 	height: 130px;
 	padding: 30px 0 30px 0;
-	margin: 0px 0 0px 0;
+	margin: 0px 0 0.59px 0;
 	border: 2px solid #444;
 	border-radius: 10px;
 	
@@ -269,7 +269,8 @@
 }
 
 
-.folderItem.expanded, .folderItem.active {
+.folderItem.expanded,
+.folderItem.active {
 	height: auto !important;
 	overflow-y: visible !important;
 	border-left: none;
@@ -284,7 +285,7 @@
 	top: 40px;
 	bottom: 5.5em;
 	width: 2em;
-	height: 0.5px;
+	height: 2px;
 	background-color: #444;
 }
 
@@ -296,7 +297,7 @@
 	left: -2.1em;
 	height: calc(var(--connect-size, 0px) + 20px);
 	overflow: visible !important;
-	width: 0.5px;
+	width: 2px;
 	background-color: #444;
 	/* sightly round at the corner */
 	
@@ -311,9 +312,8 @@
 	left: -2.1em;
 	height: calc(var(--connect-size, 0px) + 20px);
 	overflow: visible !important;
-	width: 0.5px;
+	width: 2px;
 	background-color: #444;
 	/* sightly round at the corner */
-	
 	z-index: 1;
 }
