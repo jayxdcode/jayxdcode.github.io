@@ -1,1 +1,47 @@
-/* notin. yet. */
+/* DARK MODE */
+body.dark .title {
+	color: #eee;
+}
+
+body.dark .repoItem {
+	background-color: #1e1e1e;
+	color: #ccc;
+	border-top-color: #555;
+}
+
+body.dark .repoItem:hover {
+	background-color: #333;
+}
+
+body.dark .repoDesc,
+body.dark .repoStats {
+	color: #aaa;
+}
+
+body.dark .folderItem,
+body.dark .fileItem {
+	background-color: #181818;
+	border-color: #777;
+	color: #eee;
+}
+
+body.dark .folderHeader {
+	background-color: #202020;
+	border-color: #666;
+}
+
+body.dark .down-overlay {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+body.dark .down-overlay-text {
+	color: #fff;
+}
+
+body.dark .folderItem.expanded>.fileItem::before,
+body.dark .folderItem.expanded>.folderItem::before,
+body.dark .folderItem.expanded>.fileItem::after,
+body.dark .folderItem.expanded>.folderItem::after {
+	border-color: #aaa;
+	background-color: #aaa;
+}
