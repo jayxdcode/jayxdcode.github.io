@@ -6,15 +6,3 @@ navBtn.addEventListener('click', () => {
   siteNav.classList.toggle('active');
 });
 
-const themeToggle = document.getElementById('themeToggle');
-
-themeToggle.addEventListener('click', () => {
-  
-  if (themeToggle.innerText == 'light_mode') {
-    themeToggle.innerText = 'dark_mode';
-  } else {
-    themeToggle.innerText = "light_mode";
-  }
-  
-  localStorage.setItem("theme_mode", themeToggle.innerText);
-});
