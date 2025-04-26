@@ -15,10 +15,10 @@
       const pref = localItem === 'dark_mode';
       
       let prefersDark;
-      if (localItem && pref) {
+      if (localItem !== null && pref) {
         prefersDark = pref;
       } else {
-        prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       }
       
       const global = ['/global/const-dark.css', '/global/const-styles.css'];
