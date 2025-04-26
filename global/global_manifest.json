@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 7,
     "hasIndexHTML": true,
-    "size": 8040822,
+    "size": 8051240,
     "contents": {
       ".github": {
         "type": "folder",
@@ -91,15 +91,15 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24802,
+        "size": 24655,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
-            "size": 3535
+            "size": 3425
           },
           "const-styles.css": {
             "type": "file, CSS",
-            "size": 3745
+            "size": 3309
           },
           "description.md": {
             "type": "file, MD",
@@ -107,7 +107,7 @@
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 13132
+            "size": 13615
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
@@ -115,7 +115,7 @@
           },
           "script.js": {
             "type": "file, JS",
-            "size": 630
+            "size": 546
           }
         }
       },
@@ -204,7 +204,7 @@
         "folders": 1,
         "files": 8,
         "hasIndexHTML": false,
-        "size": 30161,
+        "size": 38137,
         "contents": {
           ".dungeon": {
             "type": "folder",
@@ -229,11 +229,11 @@
           },
           "dir-dark.css": {
             "type": "file, CSS",
-            "size": 597
+            "size": 4357
           },
           "dir-styles.css": {
             "type": "file, CSS",
-            "size": 4411
+            "size": 4925
           },
           "directory-cont-generator.js": {
             "type": "file, JS",
@@ -249,11 +249,11 @@
           },
           "proj-dark.css": {
             "type": "file, CSS",
-            "size": 859
+            "size": 4638
           },
           "proj-styles.css": {
             "type": "file, CSS",
-            "size": 4593
+            "size": 4516
           }
         }
       },
@@ -488,11 +488,11 @@
       },
       "directory.html": {
         "type": "file, HTML",
-        "size": 2854
+        "size": 3705
       },
       "index.html": {
         "type": "file, HTML",
-        "size": 2543
+        "size": 3428
       },
       "LICENSE": {
         "type": "file, ",
@@ -504,7 +504,7 @@
       },
       "projects.html": {
         "type": "file, HTML",
-        "size": 3605
+        "size": 4458
       },
       "README.md": {
         "type": "file, MD",
