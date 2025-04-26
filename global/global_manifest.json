@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 7,
     "hasIndexHTML": true,
-    "size": 8051275,
+    "size": 8051276,
     "contents": {
       ".github": {
         "type": "folder",
@@ -508,7 +508,7 @@
       },
       "README.md": {
         "type": "file, MD",
-        "size": 419
+        "size": 420
       }
     }
   }
