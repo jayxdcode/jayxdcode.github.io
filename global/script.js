@@ -12,11 +12,9 @@ themeToggle.addEventListener('click', () => {
   
   if (themeToggle.innerText == 'light_mode') {
     themeToggle.innerText = 'dark_mode';
-    document.body.classList.add('dark');
   } else {
     themeToggle.innerText = "light_mode";
-    document.body.classList.remove('dark');
   }
   
-  localStorage.setItem("themeMode", themeToggle.innerText);
+  localStorage.setItem("theme_mode", themeToggle.innerText);
 });

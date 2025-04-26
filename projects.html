@@ -7,30 +7,55 @@
   <meta name="theme-color" content="#f5f5f5" />
   <meta name="description" content="GitHub User data (jayxdcode)" />
   <title>Template</title>
-  <link rel="stylesheet" href="/global/const-styles.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="/global/const-dark.css" type="text/css" media="all" />
   
-  <link rel="stylesheet" href="/msg/proj-styles.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="/msg/proj-dark.css" type="text/css" media="all" />
-  
-  <link rel="stylesheet" href="..abt-dark.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="abt-styles.css" type="text/css" media="all" />
+  <script>
+    (function() {
+      // Instant theme load before content
+      const prefersDark = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) || localStorage.getItem('theme_mode') === 'dark_mode';
+      
+      const global = ['/global/const-dark.css', '/global/const-styles.css'];
+      const local = ['/msg/proj-dark.css', '/msg/proj-styles.css'];
+      
+      let currentTheme = prefersDark ? 'dark' : 'light';
+      
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.id = 'globalStyle';
+      link.href = currentTheme === 'dark' ? global[0] : global[1];
+      document.head.appendChild(link);
+      
+      const link2 = document.createElement('link');
+      link2.rel = 'stylesheet';
+      link2.id = 'localStyle';
+      link2.href = currentTheme === 'dark' ? local[0] : local[1];
+      document.head.appendChild(link2);
+      
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.getElementById('themeToggle');
+        if (!toggle) return;
+        
+        // Set icon/text based on initial theme
+        toggle.innerText = currentTheme === 'dark' ? 'dark_mode' : 'light_mode';
+        
+        toggle.addEventListener('click', function() {
+          // Toggle the theme
+          currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+          
+          // Update button text
+          toggle.innerText = currentTheme === 'dark' ? 'dark_mode' : 'light_mode';
+          
+          // Save choice
+          localStorage.setItem('theme_mode', currentTheme === 'dark' ? 'dark_mode' : 'light_mode');
+          
+          window.location.reload()
+        });
+      });
+    })();
+  </script>
   
   <link href="https://fonts.googleapis.com/css2?family=Noto+Mono&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-  
-  <script type="text/javascript" charset="utf-8">
-    window.onload = () => {
-      if (localStorage.getItem("themeMode") == 'dark_mode') {
-        themeToggle.innerText = 'dark_mode';
-        document.body.classList.add('dark');
-      } else {
-        themeToggle.innerText = "light_mode";
-        document.body.classList.remove('dark');
-      }
-    }
-  </script>
 </head>
 
 <body>

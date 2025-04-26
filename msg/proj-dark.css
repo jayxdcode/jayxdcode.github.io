@@ -1,54 +1,320 @@
-/* DARK MODE */
-body.dark .title {
-	color: #eee;
+#bodyf {
+	flex-direction: column;
 }
 
-body.dark .repoItem {
+.title {
+	margin: 50px 0;
+	width: 100%;
+	display: block;
+	font-size: 1.5rem;
+	color: #eee;
+	max-height: 2rem;
+	height: auto;
+	
+	text-align: center;
+	font-weight: bold;
+	
+	position: relative;
+	
+}
+
+.projSection {
+	min-height: 200px;
+	height: auto;
+	flex-grow: 1;
+	justify-content: center;
+	
+	box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
+	border: 3px solid #444;
+	border-radius: 10px;
+	
+	margin: 15px;
+	
+}
+
+.projSection .t2 {
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 7px;
+}
+
+.sectionItem {
+	min-height: 150px;
+	text-align: center;
+	margin-bottom: 15px;
+	/* add spacing between items */
+}
+
+.repoItem {
+	display: block;
+	text-align: left;
+	padding: 10px 20px;
+	margin: 0 .5em;
+	text-decoration: none;
+	transition: background 0.2s ease-in-out;
+	
 	background-color: #1e1e1e;
 	color: #ccc;
 	border-top-color: #555;
 }
 
-body.dark .repoItem:hover {
+.repoItem:first-of-type {
+	border-top: none;
+}
+
+.repoItem:hover {
 	background-color: #333;
 }
 
-body.dark .repoDesc,
-body.dark .repoStats {
-	color: #aaa;
+.repoTitle {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 10px 0 10px 0;
 }
 
-body.dark .folderItem,
-body.dark .fileItem {
+.repoDesc {
+	font-size: 0.9rem;
+	color: #aaa;
+	margin: 4px 0;
+}
+
+.repoStats,
+.upd,
+.down-overlay-text {
+	font-size: 0.8rem;
+	color: #999;
+	display: flex;
+	
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: left;
+	/* better horizontal alignment */
+	gap: 10px;
+	margin-top: 10px;
+	
+}
+
+.updated {
+	top: 3px;
+	/* reset margin for cleaner alignment */
+}
+
+.feature-down {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.down-overlay {
+	background-color: rgba(255, 255, 255, 0.08);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-content: center;
+	border-radius: inherit;
+}
+
+.down-overlay-text {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#exclusive {
+	overflow-y: auto;
+	margin: 2em 2em 0 0;
+}
+
+#exclusive:first-child {
+	padding-top: 0;
+	padding-left: 0 !important;
+}
+
+#exclusive:last-child {
+	padding-bottom: 1.5em;
+}
+
+#exclusive .active {
+	transition: padding 0.5s ease;
+}
+
+.folderItem,
+.fileItem {
 	background-color: #181818;
 	border-color: #aaa;
 	color: #eee;
+	
+	display: block;
+	text-align: left;
+	margin: 0em 0 0 0em;
+	padding-left: 2em;
+	text-decoration: none;
+	color: inherit;
+	transition: background 0.3s !important;
 }
 
-body.dark .folderHeader {
+.folderItem:first-child {
+	margin-top: 0;
+}
+
+.folderItem span {
+	padding-left: .5em;
+}
+
+.fileItem span {
+	padding-left: 1em;
+}
+
+.folder {
+	height: 130px;
+}
+
+.folder .folderItem {
+	padding-bottom: 1em;
+	height: 147px;
+	overflow-y: hidden;
+}
+
+.folderItem .fileItem,
+.folderItem .folderItem {
+	padding-top: 1em;
+}
+
+.folderItem * {
+	border-right: none;
+	position: relative;
+}
+
+.folderItem {
+	overflow: hidden;
+}
+
+.fileHeader {
+	margin-top: 1em;
+}
+
+.folderHeader {
+	height: 130px;
+	padding: 30px 0 30px 0;
+	margin: 0px 0 0.59px 0;
+	border: 2px solid #666;
+	border-radius: 10px;
+	
 	background-color: #202020;
-	border-color: #666;
+	
+	box-shadow: 0 0 25px 3px rgba(206, 206, 206, 0.2);
+	
+	z-index: 3;
 }
 
-body.dark .down-overlay {
-	background-color: rgba(255, 255, 255, 0.08);
+.folderDetails {
+	padding: 0 0 0 1.55em;
+	height: 30px;
 }
 
-body.dark .down-overlay-text {
-	color: #fff;
+.fileDetails {
+	padding-bottom: 1em;
+}
+
+.fileItem {
+	padding-bottom: 1em;
+	border: 2px solid #444;
+	box-shadow: 0 0 25px 3px rgba(206, 206, 206, 0.2);
+	border-radius: 10px;
+	position: relative;
+	left: 2em;
+	width: calc(100% - 2em);
+	margin: 1em 0 0 0;
+}
+
+.opentxt {
+	font-size: .3em;
+}
+
+.folder span,
+.fileActions span {
+	font-size: 14px;
+	padding-top: 0.35em;
+}
+
+.fileActions .material-symbols-outlined {
+	padding-left: 0px;
+}
+
+.fileActions,
+.folderDetails,
+.fileDetails {
+	padding-top: 0.5em;
+}
+
+/* Show/Hide Style & Transitions */
+
+.folderChildren {
+	padding-left: 1.4em;
+	overflow-y: hidden;
 }
 
 
-body.dark .fileItem::before,
-body.dark .childElement::before,
-body.dark .lastItem:after,
-body.dark .folderHeader.lastItem::after {
-	border-color: #aaa;
+.active .dropdownIcon {
+	padding-left: 1em;
+}
+
+.active .folderDetails {
+	padding-left: 1.9em;
+}
+
+.childElement {
+	position: relative;
+	overflow-x: visible !important;
+}
+
+
+.folderItem.expanded,
+.folderItem.active {
+	height: auto !important;
+	border-left: none;
+	/* remove default left border */
+}
+
+.fileItem::before,
+.childElement::before {
+	content: '';
+	position: absolute;
+	left: -2em;
+	top: 40px;
+	bottom: 5.5em;
+	width: 2em;
+	height: 2px;
 	background-color: #aaa;
 }
 
-body.dark #exclusive,
-body.dark #exclusive div,
-body.dark #exclusive span {
-	background-color: #050505;
+.lastItem::after {
+	content: '';
+	position: absolute;
+	bottom: 97px;
+	/* exact Y where vertical stops */
+	left: -2.1em;
+	height: calc(var(--connect-size, 0px) + 20px);
+	overflow: visible !important;
+	width: 2px;
+	background-color: #aaa;
+	/* sightly round at the corner */
+	
+	z-index: 1;
+}
+
+.folderHeader.lastItem::after {
+	content: '';
+	position: absolute;
+	bottom: 86px;
+	/* exact Y where vertical stops */
+	left: -2.1em;
+	height: calc(var(--connect-size, 0px) + 20px);
+	overflow: visible !important;
+	width: 2px;
+	background-color: #aaa;
+	/* sightly round at the corner */
+	z-index: 1;
 }

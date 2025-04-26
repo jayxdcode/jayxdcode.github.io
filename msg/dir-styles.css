@@ -1,19 +1,14 @@
-#bodyf {
-	flex-direction: column;
-}
+/* dir-styles */
 
 .projSection {
 	min-height: 200px;
 	height: auto;
 	flex-grow: 1;
 	justify-content: center;
-	
 	box-shadow: 0 0 25px 1px rgba(206, 206, 206, 0.2);
 	border: 3px solid #444;
 	border-radius: 10px;
-	
 	margin: 15px;
-	
 }
 
 .projSection .t2 {
@@ -66,14 +61,12 @@
 	font-size: 0.8rem;
 	color: #999;
 	display: flex;
-	
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: left;
 	/* better horizontal alignment */
 	gap: 10px;
 	margin-top: 10px;
-	
 }
 
 .updated {
@@ -120,12 +113,6 @@
 
 #exclusive .active {
 	transition: padding 0.5s ease;
-}
-
-#exclusive,
-#exclusive div,
-#exclusive span {
-	background-color: #fefefe;
 }
 
 .folderItem,
@@ -183,11 +170,9 @@
 	height: 130px;
 	padding: 30px 0 30px 0;
 	margin: 0px 0 0.59px 0;
-	border: 2px solid #444;
+	border: 2px solid #B79A00;
 	border-radius: 10px;
-	
-	box-shadow: 0 0 25px 3px rgba(206, 206, 206, 0.2);
-	
+	background-color: #F1D592;
 	z-index: 3;
 }
 
@@ -209,6 +194,8 @@
 	left: 2em;
 	width: calc(100% - 2em);
 	margin: 1em 0 0 0;
+	
+	background-color: #0078D766;
 }
 
 .opentxt {
@@ -238,7 +225,6 @@
 	overflow-y: hidden;
 }
 
-
 .active .dropdownIcon {
 	padding-left: 1em;
 }
@@ -251,7 +237,6 @@
 	position: relative;
 	overflow-x: visible !important;
 }
-
 
 .folderItem.expanded,
 .folderItem.active {
@@ -282,8 +267,7 @@
 	overflow: visible !important;
 	width: 2px;
 	background-color: #444;
-	/* sightly round at the corner */
-	
+	/* slightly round at the corner */
 	z-index: 1;
 }
 
@@ -297,6 +281,42 @@
 	overflow: visible !important;
 	width: 2px;
 	background-color: #444;
-	/* sightly round at the corner */
+	/* slightly round at the corner */
 	z-index: 1;
+}
+
+/* dir-dark */
+
+body.dark .folderItem,
+body.dark .fileItem {
+	background-color: #181818;
+	border-color: #aaa;
+	color: #eee;
+}
+
+body.dark .folderHeader {
+	background-color: #202020;
+	border-color: #666;
+}
+
+body.dark .down-overlay {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+body.dark .down-overlay-text {
+	color: #fff;
+}
+
+body.dark .fileItem::before,
+body.dark .childElement::before,
+body.dark .lastItem:after,
+body.dark .folderHeader.lastItem::after {
+	border-color: #aaa;
+	background-color: #aaa;
+}
+
+body.dark #exclusive,
+body.dark #exclusive div,
+body.dark #exclusive span {
+	background-color: #050505;
 }

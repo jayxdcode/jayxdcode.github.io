@@ -137,12 +137,6 @@
 	transition: padding 0.5s ease;
 }
 
-#exclusive,
-#exclusive div,
-#exclusive span {
-	background-color: #fefefe;
-}
-
 .folderItem,
 .fileItem {
 	display: block;
