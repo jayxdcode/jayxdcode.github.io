@@ -5,9 +5,7 @@
   https://jayxdcode.github.io/
 
 
-(Also in Netlify)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/af4506af-aaa7-4560-8dc6-9c400717fe5a/deploy-status)](https://app.netlify.com/sites/jayxdcode/deploys)
+Also in Netlify ==> [![Netlify Status](https://api.netlify.com/api/v1/badges/af4506af-aaa7-4560-8dc6-9c400717fe5a/deploy-status)](https://app.netlify.com/sites/jayxdcode/deploys)
   
 
 
