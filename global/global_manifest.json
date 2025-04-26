@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 7,
     "hasIndexHTML": true,
-    "size": 8051713,
+    "size": 8051391,
     "contents": {
       ".github": {
         "type": "folder",
@@ -91,7 +91,7 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24657,
+        "size": 24335,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
@@ -115,7 +115,7 @@
           },
           "script.js": {
             "type": "file, JS",
-            "size": 546
+            "size": 224
           }
         }
       },
