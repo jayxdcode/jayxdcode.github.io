@@ -11,7 +11,15 @@
   <script>
     (function() {
       // Instant theme load before content
-      const prefersDark = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) || localStorage.getItem('theme_mode') === 'dark_mode';
+      const localItem = localStorage.getItem('theme_mode');
+      const pref = localItem === 'dark_mode';
+      
+      let prefersDark;
+      if (localItem && pref) {
+        prefersDark = pref;
+      } else {
+        prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      }
       
       const global = ['/global/const-dark.css', '/global/const-styles.css'];
       const local = ['/msg/dir-dark.css', '/msg/dir-styles.css'];
