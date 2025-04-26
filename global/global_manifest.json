@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 7,
     "hasIndexHTML": true,
-    "size": 8051421,
+    "size": 8051508,
     "contents": {
       ".github": {
         "type": "folder",
@@ -488,11 +488,11 @@
       },
       "directory.html": {
         "type": "file, HTML",
-        "size": 3872
+        "size": 3901
       },
       "index.html": {
         "type": "file, HTML",
-        "size": 3595
+        "size": 3624
       },
       "LICENSE": {
         "type": "file, ",
@@ -504,7 +504,7 @@
       },
       "projects.html": {
         "type": "file, HTML",
-        "size": 4625
+        "size": 4654
       },
       "README.md": {
         "type": "file, MD",
