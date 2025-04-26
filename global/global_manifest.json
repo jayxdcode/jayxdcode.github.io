@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 7,
     "hasIndexHTML": true,
-    "size": 8051240,
+    "size": 8051713,
     "contents": {
       ".github": {
         "type": "folder",
@@ -91,7 +91,7 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24655,
+        "size": 24657,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
@@ -107,7 +107,7 @@
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 13615
+            "size": 13617
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
@@ -488,11 +488,11 @@
       },
       "directory.html": {
         "type": "file, HTML",
-        "size": 3705
+        "size": 3862
       },
       "index.html": {
         "type": "file, HTML",
-        "size": 3428
+        "size": 3585
       },
       "LICENSE": {
         "type": "file, ",
@@ -504,7 +504,7 @@
       },
       "projects.html": {
         "type": "file, HTML",
-        "size": 4458
+        "size": 4615
       },
       "README.md": {
         "type": "file, MD",
