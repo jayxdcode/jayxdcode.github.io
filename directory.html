@@ -55,7 +55,7 @@
           // Save choice
           localStorage.setItem('theme_mode', currentTheme === 'dark' ? 'dark_mode' : 'light_mode');
           
-          window.location.reload()
+          setTimeout(function() {window.location.reload()}, 75)
         });
       });
     })();
