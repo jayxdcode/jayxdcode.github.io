@@ -142,26 +142,24 @@ body {
 }
 
 #siteNav {
-	width: 175px;
-	height: 200px;
+	width: 100%;
+	height: 100%;
 	display: flex;
-	position: fixed;
-	top: -135px;
-	left: calc(100% - 175px);
-	border-radius: 0 0 10px 10px;
-	border-left: 1px solid #444;
-	border-bottom: 3px solid #444;
+	position: absolute;
+	left: 0%;
 	gap: 1.5rem;
+	top: -100%;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	transition: top 0.25s ease-out;
-	z-index: 9;
+	transition: top 0.5s ease-in-out;
 	background-color: #050505;
+	
+	z-index: 9;
 }
 
 #siteNav a {
-	width: 100px;
+	width: 50%;
 	padding: 0.5rem 1rem;
 	border-radius: 4px;
 	color: #fff;
@@ -177,7 +175,7 @@ body {
 }
 
 #siteNav.active {
-	top: 70px;
+	top: 0;
 }
 
 #bodyf {
@@ -188,12 +186,6 @@ body {
 	flex-direction: column;
 	color: #fff;
 	font-family: 'Noto Mono', monospace;
-}
-
-@media (orientation: landscape) {
-	#bodyf {
-		min-height: 90vw;
-	}
 }
 
 #footer {

@@ -262,7 +262,7 @@
 .lastItem::after {
 	content: '';
 	position: absolute;
-	bottom: 97px;
+	bottom: 95px;
 	/* exact Y where vertical stops */
 	left: -2.1em;
 	height: calc(var(--connect-size, 0px) + 20px);
@@ -276,9 +276,9 @@
 .folderHeader.lastItem::after {
 	content: '';
 	position: absolute;
-	bottom: 86px;
+	bottom: 83px;
 	/* exact Y where vertical stops */
-	left: -2.1em;
+	left: -2em;
 	height: calc(var(--connect-size, 0px) + 20px);
 	overflow: visible !important;
 	width: 2px;
