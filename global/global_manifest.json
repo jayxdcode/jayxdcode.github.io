@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 7,
     "hasIndexHTML": true,
-    "size": 8051397,
+    "size": 8051116,
     "contents": {
       ".github": {
         "type": "folder",
@@ -91,15 +91,15 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24335,
+        "size": 24058,
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
-            "size": 3425
+            "size": 3245
           },
           "const-styles.css": {
             "type": "file, CSS",
-            "size": 3309
+            "size": 3212
           },
           "description.md": {
             "type": "file, MD",
@@ -204,7 +204,7 @@
         "folders": 1,
         "files": 8,
         "hasIndexHTML": false,
-        "size": 38137,
+        "size": 38133,
         "contents": {
           ".dungeon": {
             "type": "folder",
@@ -229,11 +229,11 @@
           },
           "dir-dark.css": {
             "type": "file, CSS",
-            "size": 4357
+            "size": 4355
           },
           "dir-styles.css": {
             "type": "file, CSS",
-            "size": 4925
+            "size": 4923
           },
           "directory-cont-generator.js": {
             "type": "file, JS",
