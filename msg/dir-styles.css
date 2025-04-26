@@ -2,21 +2,6 @@
 	flex-direction: column;
 }
 
-.title {
-	margin: 50px 0;
-	width: 100%;
-	display: block;
-	font-size: 1.5rem;
-	max-height: 2rem;
-	height: auto;
-	
-	text-align: center;
-	font-weight: bold;
-	
-	position: relative;
-	
-}
-
 .projSection {
 	min-height: 200px;
 	height: auto;

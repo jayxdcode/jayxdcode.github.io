@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="/global/const-styles.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/global/const-dark.css" type="text/css" media="all" />
   
+  <link rel="stylesheet" href="/msg/proj-styles.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="/msg/proj-dark.css" type="text/css" media="all" />
+  
+  <link rel="stylesheet" href="..abt-dark.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="abt-styles.css" type="text/css" media="all" />
+  
   <link href="https://fonts.googleapis.com/css2?family=Noto+Mono&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
@@ -37,7 +43,7 @@
       <div id="textCont">
         <span id="siteName">Site Name</span>
         <span class="lineBreak"></span>
-        <span id="sub">Home (NO CONTENT YET)</span>
+        <span id="sub">Repo Directory</span>
       </div>
     </div>
     
@@ -53,14 +59,25 @@
   </div>
   
   <div id="siteNav">
-    <a href="">Home</a>
+    <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
-    <a href="directory.html">Directory</a>
+    <a href="">Directory</a>
   </div>
   
-  <div id="bodyf" style="justify-content: center; text-align: center;">
-    <span class='material-symbols-outlined' style="font-size: 100px; color: red; padding: 0 0 1em 0;">error</span>
-    <span>No content here. Open the Navigation menu on the top right corner to navigate to other pages available.</span>
+  <div id="bodyf">
+    
+    <!--
+    
+    <span class="title">
+      < Repository Directory />
+    </span>
+    
+    -->
+    
+    <div class="projSection">
+      <div id="exclusive"></div>
+    </div>
+    
   </div>
   
   <div id="footer">
@@ -72,6 +89,7 @@
   </div>
   
   <script src="/global/script.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/msg/directory-cont-generator.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

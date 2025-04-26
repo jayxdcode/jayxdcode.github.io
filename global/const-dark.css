@@ -131,8 +131,8 @@ body.dark #siteNav {
   display: flex;
   position: fixed;
   top: -135px;
-  z-index: 2;
-  border: 1px #CECECE;
+  z-index: 9;
+  border-bottom: 1px solid #CECECE;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0 20px 1 rgba(206,206,206, 0.3);
   gap: 1.5rem;
@@ -172,6 +172,7 @@ body.dark #bodyf {
   color: #fff;
   min-height: 90vh;
   padding-top: 70px;
+  flex-direction: column;
 }
 
 @media (orientation: landscape) {

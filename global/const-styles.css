@@ -160,7 +160,7 @@ body {
   flex-direction: column;
   transition: top 0.3s ease;
   /* Light background */
-  z-index: 2;
+  z-index: 9;
   /*turn to 70 in transition*/
   
   height: 200px;
@@ -218,7 +218,7 @@ body {
   flex-direction: column;
   font-family: 'Noto Mono', monospace;
   align-self: flex-end;
-  margin-top: 10px;
+  margin-bottom: 10px;
   min-height: 100px;
   place-items: center;
 }
