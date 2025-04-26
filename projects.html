@@ -15,7 +15,7 @@
       const pref = localItem === 'dark_mode';
       
       let prefersDark;
-      if (localItem !== null && pref) {
+      if (localItem !== null) {
         prefersDark = pref;
       } else {
         prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -55,7 +55,7 @@
           // Save choice
           localStorage.setItem('theme_mode', currentTheme === 'dark' ? 'dark_mode' : 'light_mode');
           
-          setTimeout(function() {window.location.reload()}, 75)
+          window.location.reload()
         });
       });
     })();
