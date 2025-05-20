@@ -135,7 +135,7 @@
 	padding-left: .5em;
 }
 
-.fileItem span {
+.fileItem > span {
 	padding-left: 1em;
 }
 
@@ -204,10 +204,19 @@
 	font-size: .3em;
 }
 
-.folder span,
-.fileActions span {
+.folder span {
 	font-size: 14px;
 	padding-top: 0.35em;
+}
+
+.fileActions {
+	font-size: 14px;
+	padding-left: 0.5em;
+	text-decoration: none;
+}
+
+.fileActions span {
+	padding: 0;
 }
 
 .fileActions .material-symbols-outlined {
@@ -262,7 +271,7 @@
 .lastItem::after {
 	content: '';
 	position: absolute;
-	bottom: 95px;
+	bottom: 5.5em;
 	/* exact Y where vertical stops */
 	left: -2.1em;
 	height: calc(var(--connect-size, 0px) + 20px);

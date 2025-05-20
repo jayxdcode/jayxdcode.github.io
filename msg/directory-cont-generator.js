@@ -1,6 +1,11 @@
 const username = "jayxdcode";
 const manifestLoc = `/global/global_manifest.json`;
 
+const openedList = localStorage.getItem('opened-folders');
+
+let openedFolders = ["f0"];
+!openedList ? localStorage.setItem('opened-folders', openedFolders) : console.info('Local Storage Item `opened-folder` already set!')
+
 function formatUTCDateString(utcDateString) {
   const date = new Date(utcDateString);
   const options = {
@@ -29,14 +34,17 @@ function createFileHTML(name, file, last = false) {
   <div class="fileDetails">
     <span class="material-symbols-outlined">database</span> <span id="size">${formatSize(file.size)}</span>
   </div>
-  <span class="fileActions openBtn clickable">
+  <a class="fileActions openBtn clickable" href="${typeof file.path !== 'undefined' ? file.path : 'javascript:void(0)'}">
     <span class="material-symbols-outlined">open_in_new</span> <span class="opentxt">Open File</span>
-  </span>
+  </a>
 </div>`;
 }
 
 function generateProjectSectionHTML(manifest) {
+  let fidCounter = 0;
+  
   function createFolderHTML(name, folder, last = false) {
+    const thisFid = fidCounter++;
     
     let fileCount = 0,
       folderCount = 0,
@@ -65,7 +73,7 @@ function generateProjectSectionHTML(manifest) {
     
     return {
       html: `
-<div class="folder folderItem">
+<div class="folder folderItem" id="f${thisFid}">
   <div class="lineConnect"></div>
   <div class="folderHeader${last == true ? " lastItem" : ""}">
     <span class="dropdownIcon material-symbols-outlined clickable">expand_more</span>
@@ -105,10 +113,19 @@ function expandFolder(event) {
   par.classList.toggle("active");
   expandBtn.innerHTML = par.classList.contains("active") ? "expand_less" : "expand_more";
   
+  
   const parent = expandBtn.closest('.folder');
   if (parent) {
     parent.classList.toggle("expanded");
   }
+  
+  document.querySelectorAll(".expanded").forEach(folder => {
+    openedFolders.push(folder.id)
+    openedFolders = [...new Set(openedFolders)];
+
+  })
+  
+  localStorage.setItem('opened-folders', openedFolders)
 }
 
 // UNAVAILABLE FEATURES OVERLAY
@@ -138,9 +155,37 @@ fetch(manifestLoc)
       folder.querySelectorAll('.folderChildren .folderHeader').forEach(header => header.classList.add('childElement'));
       folder.querySelectorAll('.fileItem').forEach(item => item.classList.add('childElement'));
     });
+    
+    document.querySelector(".folderHeader").classList.add('active');
+    document.querySelector(".folder").classList.add('expanded');
+    updateAllConnectSizes();
+    
+    setTimeout(function() {
+      document.querySelector(".folderHeader").classList.add('active');
+      document.querySelector(".folder").classList.add('expanded');
+      updateAllConnectSizes();
+      
+      restoreLastSave()
+    }, 50);
   })
   .catch(error => console.error("Error loading manifest:", error));
 
+function restoreLastSave() {
+  if (!openedList) return;
+
+  const lastUpd = openedList.split(',').map(x => x.trim());
+
+  lastUpd.forEach(id => {
+    const folderEl = document.getElementById(id);
+    if (folderEl) {
+      folderEl.classList.add('expanded');
+      const header = folderEl.querySelector('.folderHeader');
+      if (header) header.classList.add('active');
+    }
+  });
+
+  updateAllConnectSizes();
+}
 
 function setLineConnector(lastItem) {
   const container = lastItem.closest('.folderChildren');
@@ -162,3 +207,4 @@ document.getElementById('exclusive')?.addEventListener('click', e => {
     updateAllConnectSizes();
   }
 });
+
