@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20250620,
+  "lastUpdate": 20250621,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-06-19T01:20:38Z"
+      "updatedAt": "2025-06-20T01:19:55Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-06-19T23:10:36Z"
+      "updatedAt": "2025-06-20T23:10:20Z"
     },
     {
       "name": "tdpg",
@@ -39,7 +39,20 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-06-19T23:10:36Z",
+      "updatedAt": "2025-06-20T23:10:20Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-06-20T01:19:55Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -53,19 +66,6 @@
       "url": "https://github.com/jayxdcode/scrapy_api",
       "description": "Personal Access API",
       "updatedAt": "2025-06-19T20:28:27Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode.github.io",
-      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
-      "description": "Site deployment repository",
-      "updatedAt": "2025-06-19T01:20:38Z",
       "defaultBranchRef": {
         "target": {
           "history": {
