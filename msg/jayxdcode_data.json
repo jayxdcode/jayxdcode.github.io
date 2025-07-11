@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20250710,
+  "lastUpdate": 20250711,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-07-09T01:22:32Z"
+      "updatedAt": "2025-07-10T01:22:27Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-07-09T23:10:30Z"
+      "updatedAt": "2025-07-10T23:10:38Z"
     },
     {
       "name": "tdpg",
@@ -39,7 +39,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-07-09T23:10:30Z",
+      "updatedAt": "2025-07-10T23:10:38Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +52,20 @@
       "name": "scrapy_api",
       "url": "https://github.com/jayxdcode/scrapy_api",
       "description": "Personal Access API",
-      "updatedAt": "2025-07-09T22:31:12Z",
+      "updatedAt": "2025-07-10T22:30:06Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "src-backend",
+      "url": "https://github.com/jayxdcode/src-backend",
+      "description": null,
+      "updatedAt": "2025-07-10T06:53:26Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +78,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-07-09T01:22:32Z",
+      "updatedAt": "2025-07-10T01:22:27Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -93,19 +106,6 @@
       "description": null,
       "updatedAt": "2025-06-26T08:05:54Z",
       "defaultBranchRef": null
-    },
-    {
-      "name": "src-backend",
-      "url": "https://github.com/jayxdcode/src-backend",
-      "description": null,
-      "updatedAt": "2025-06-15T11:16:06Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
     },
     {
       "name": "himari",
