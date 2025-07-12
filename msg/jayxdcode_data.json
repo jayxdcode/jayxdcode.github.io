@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20250711,
+  "lastUpdate": 20250712,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-07-10T01:22:27Z"
+      "updatedAt": "2025-07-11T01:23:31Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-07-10T23:10:38Z"
+      "updatedAt": "2025-07-11T23:10:45Z"
     },
     {
       "name": "tdpg",
@@ -39,7 +39,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-07-10T23:10:38Z",
+      "updatedAt": "2025-07-11T23:10:45Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +52,20 @@
       "name": "scrapy_api",
       "url": "https://github.com/jayxdcode/scrapy_api",
       "description": "Personal Access API",
-      "updatedAt": "2025-07-10T22:30:06Z",
+      "updatedAt": "2025-07-11T22:30:43Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-07-11T01:23:31Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -66,19 +79,6 @@
       "url": "https://github.com/jayxdcode/src-backend",
       "description": null,
       "updatedAt": "2025-07-10T06:53:26Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode.github.io",
-      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
-      "description": "Site deployment repository",
-      "updatedAt": "2025-07-10T01:22:27Z",
       "defaultBranchRef": {
         "target": {
           "history": {
