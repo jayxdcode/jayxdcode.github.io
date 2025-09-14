@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20250913,
+  "lastUpdate": 20250914,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-09-12T01:10:35Z"
+      "updatedAt": "2025-09-13T01:07:44Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-09-12T23:09:31Z"
+      "updatedAt": "2025-09-13T23:09:37Z"
     },
     {
       "name": "tdpg",
@@ -39,7 +39,20 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-09-12T23:09:31Z",
+      "updatedAt": "2025-09-13T23:09:37Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode",
+      "url": "https://github.com/jayxdcode/jayxdcode",
+      "description": "GitHub profile markdown",
+      "updatedAt": "2025-09-13T14:28:07Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-09-12T01:10:35Z",
+      "updatedAt": "2025-09-13T01:07:44Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -112,13 +125,6 @@
           }
         }
       }
-    },
-    {
-      "name": "himari-1.5",
-      "url": "https://github.com/jayxdcode/himari-1.5",
-      "description": null,
-      "updatedAt": "2025-06-26T08:05:54Z",
-      "defaultBranchRef": null
     }
   ],
   "mostCommittedRepos": []
