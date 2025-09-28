@@ -1,13 +1,13 @@
 {
-  "lastUpdate": 20250927,
+  "lastUpdate": 20250928,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "stargazerCount": 1,
+      "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-09-26T01:12:54Z"
+      "updatedAt": "2025-09-27T21:58:08Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-09-26T23:09:10Z"
+      "updatedAt": "2025-09-27T23:09:35Z"
     },
     {
       "name": "tdpg",
@@ -39,20 +39,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-09-26T23:09:10Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "swpfl-lrc-api",
-      "url": "https://github.com/jayxdcode/swpfl-lrc-api",
-      "description": "A Python FastAPI-based API to get lyrics. ",
-      "updatedAt": "2025-09-26T05:45:32Z",
+      "updatedAt": "2025-09-27T23:09:35Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +52,20 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-09-26T01:12:54Z",
+      "updatedAt": "2025-09-27T21:58:08Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "swpfl-lrc-api",
+      "url": "https://github.com/jayxdcode/swpfl-lrc-api",
+      "description": "A Python FastAPI-based API to get lyrics. ",
+      "updatedAt": "2025-09-27T04:42:17Z",
       "defaultBranchRef": {
         "target": {
           "history": {
