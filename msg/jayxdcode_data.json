@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20250928,
+  "lastUpdate": 20250929,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-09-27T21:58:08Z"
+      "updatedAt": "2025-09-28T01:19:53Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-09-27T23:09:35Z"
+      "updatedAt": "2025-09-28T23:09:49Z"
     },
     {
       "name": "tdpg",
@@ -39,20 +39,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-09-27T23:09:35Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode.github.io",
-      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
-      "description": "Site deployment repository",
-      "updatedAt": "2025-09-27T21:58:08Z",
+      "updatedAt": "2025-09-28T23:09:49Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +52,20 @@
       "name": "swpfl-lrc-api",
       "url": "https://github.com/jayxdcode/swpfl-lrc-api",
       "description": "A Python FastAPI-based API to get lyrics. ",
-      "updatedAt": "2025-09-27T04:42:17Z",
+      "updatedAt": "2025-09-28T10:06:03Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-09-28T01:19:53Z",
       "defaultBranchRef": {
         "target": {
           "history": {
