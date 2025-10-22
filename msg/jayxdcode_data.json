@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251021,
+  "lastUpdate": 20251022,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-20T01:20:00Z"
+      "updatedAt": "2025-10-21T01:16:33Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-20T13:58:10Z"
+      "updatedAt": "2025-10-21T14:07:11Z"
     },
     {
       "name": "tdpg",
@@ -36,10 +36,23 @@
   ],
   "latestModifiedRepos": [
     {
+      "name": "jayxdcode",
+      "url": "https://github.com/jayxdcode/jayxdcode",
+      "description": "GitHub profile markdown",
+      "updatedAt": "2025-10-21T14:39:33Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-10-20T13:58:10Z",
+      "updatedAt": "2025-10-21T14:07:11Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-10-20T01:20:00Z",
+      "updatedAt": "2025-10-21T01:16:33Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -79,19 +92,6 @@
       "url": "https://github.com/jayxdcode/swpfl-lrc-api",
       "description": "A Python FastAPI-based API to get lyrics. ",
       "updatedAt": "2025-09-28T10:06:03Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode",
-      "url": "https://github.com/jayxdcode/jayxdcode",
-      "description": "GitHub profile markdown",
-      "updatedAt": "2025-09-13T14:28:07Z",
       "defaultBranchRef": {
         "target": {
           "history": {
