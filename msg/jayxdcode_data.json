@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251026,
+  "lastUpdate": 20251027,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-25T01:13:40Z"
+      "updatedAt": "2025-10-26T01:20:36Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-25T03:09:23Z"
+      "updatedAt": "2025-10-26T03:16:03Z"
     },
     {
       "name": "tdpg",
@@ -36,10 +36,23 @@
   ],
   "latestModifiedRepos": [
     {
+      "name": "swpfl",
+      "url": "https://github.com/jayxdcode/swpfl",
+      "description": null,
+      "updatedAt": "2025-10-26T11:16:53Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-10-25T03:09:23Z",
+      "updatedAt": "2025-10-26T03:16:03Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-10-25T01:13:40Z",
+      "updatedAt": "2025-10-26T01:20:36Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -105,19 +118,6 @@
       "url": "https://github.com/jayxdcode/scrapy_api",
       "description": "Personal Access API",
       "updatedAt": "2025-09-07T22:27:50Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "swpfl",
-      "url": "https://github.com/jayxdcode/swpfl",
-      "description": null,
-      "updatedAt": "2025-08-17T14:09:45Z",
       "defaultBranchRef": {
         "target": {
           "history": {
