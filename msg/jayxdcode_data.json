@@ -1,13 +1,13 @@
 {
-  "lastUpdate": 20251027,
+  "lastUpdate": 20251028,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "stargazerCount": 2,
+      "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-10-26T01:20:36Z"
+      "updatedAt": "2025-10-27T16:34:12Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-26T03:16:03Z"
+      "updatedAt": "2025-10-27T03:25:16Z"
     },
     {
       "name": "tdpg",
@@ -36,10 +36,23 @@
   ],
   "latestModifiedRepos": [
     {
-      "name": "swpfl",
-      "url": "https://github.com/jayxdcode/swpfl",
-      "description": null,
-      "updatedAt": "2025-10-26T11:16:53Z",
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-10-27T16:34:12Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "angle-builder",
+      "url": "https://github.com/jayxdcode/angle-builder",
+      "description": "Builds Android OS ANGLE Graphics Driver APK using GitHub Actions.",
+      "updatedAt": "2025-10-27T15:47:26Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +65,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-10-26T03:16:03Z",
+      "updatedAt": "2025-10-27T03:25:16Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -62,10 +75,10 @@
       }
     },
     {
-      "name": "jayxdcode.github.io",
-      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
-      "description": "Site deployment repository",
-      "updatedAt": "2025-10-26T01:20:36Z",
+      "name": "swpfl",
+      "url": "https://github.com/jayxdcode/swpfl",
+      "description": null,
+      "updatedAt": "2025-10-26T11:16:53Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -105,19 +118,6 @@
       "url": "https://github.com/jayxdcode/swpfl-lrc-api",
       "description": "A Python FastAPI-based API to get lyrics. ",
       "updatedAt": "2025-09-28T10:06:03Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "scrapy_api",
-      "url": "https://github.com/jayxdcode/scrapy_api",
-      "description": "Personal Access API",
-      "updatedAt": "2025-09-07T22:27:50Z",
       "defaultBranchRef": {
         "target": {
           "history": {
