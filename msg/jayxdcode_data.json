@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251030,
+  "lastUpdate": 20251031,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-10-29T01:19:49Z"
+      "updatedAt": "2025-10-30T01:19:30Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-29T03:21:19Z"
+      "updatedAt": "2025-10-30T03:17:05Z"
     },
     {
       "name": "tdpg",
@@ -36,10 +36,23 @@
   ],
   "latestModifiedRepos": [
     {
+      "name": "himari-js",
+      "url": "https://github.com/jayxdcode/himari-js",
+      "description": "ʜɪᴍᴀʀɪ NodeJS version",
+      "updatedAt": "2025-10-30T12:01:38Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-10-29T03:21:19Z",
+      "updatedAt": "2025-10-30T03:17:05Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,20 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-10-29T01:19:49Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "angle-builder",
-      "url": "https://github.com/jayxdcode/angle-builder",
-      "description": "Builds Android OS ANGLE Graphics Driver APK using GitHub Actions.",
-      "updatedAt": "2025-10-27T15:47:26Z",
+      "updatedAt": "2025-10-30T01:19:30Z",
       "defaultBranchRef": {
         "target": {
           "history": {
