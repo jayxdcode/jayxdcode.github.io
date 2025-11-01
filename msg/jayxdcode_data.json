@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251031,
+  "lastUpdate": 20251101,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-10-30T01:19:30Z"
+      "updatedAt": "2025-10-31T01:17:03Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-10-30T03:17:05Z"
+      "updatedAt": "2025-10-31T03:17:51Z"
     },
     {
       "name": "tdpg",
@@ -36,23 +36,10 @@
   ],
   "latestModifiedRepos": [
     {
-      "name": "himari-js",
-      "url": "https://github.com/jayxdcode/himari-js",
-      "description": "ʜɪᴍᴀʀɪ NodeJS version",
-      "updatedAt": "2025-10-30T12:01:38Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-10-30T03:17:05Z",
+      "updatedAt": "2025-10-31T03:17:51Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +52,20 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-10-30T01:19:30Z",
+      "updatedAt": "2025-10-31T01:17:03Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "himari-js",
+      "url": "https://github.com/jayxdcode/himari-js",
+      "description": "ʜɪᴍᴀʀɪ NodeJS version",
+      "updatedAt": "2025-10-30T12:01:38Z",
       "defaultBranchRef": {
         "target": {
           "history": {
