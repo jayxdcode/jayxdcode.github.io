@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251107,
+  "lastUpdate": 20251108,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-11-06T01:18:23Z"
+      "updatedAt": "2025-11-07T01:17:42Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-11-06T03:20:09Z"
+      "updatedAt": "2025-11-07T03:16:59Z"
     },
     {
       "name": "tdpg",
@@ -36,23 +36,10 @@
   ],
   "latestModifiedRepos": [
     {
-      "name": "swpfl",
-      "url": "https://github.com/jayxdcode/swpfl",
-      "description": null,
-      "updatedAt": "2025-11-06T14:40:35Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-11-06T03:20:09Z",
+      "updatedAt": "2025-11-07T03:16:59Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +52,20 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-11-06T01:18:23Z",
+      "updatedAt": "2025-11-07T01:17:42Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "swpfl",
+      "url": "https://github.com/jayxdcode/swpfl",
+      "description": null,
+      "updatedAt": "2025-11-06T14:40:35Z",
       "defaultBranchRef": {
         "target": {
           "history": {
