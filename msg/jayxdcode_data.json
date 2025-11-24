@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251123,
+  "lastUpdate": 20251124,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-11-22T01:15:07Z"
+      "updatedAt": "2025-11-23T01:28:21Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-11-22T03:11:27Z"
+      "updatedAt": "2025-11-23T03:41:52Z"
     },
     {
       "name": "tdpg",
@@ -36,10 +36,36 @@
   ],
   "latestModifiedRepos": [
     {
+      "name": "swpfl",
+      "url": "https://github.com/jayxdcode/swpfl",
+      "description": null,
+      "updatedAt": "2025-11-23T11:05:58Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode",
+      "url": "https://github.com/jayxdcode/jayxdcode",
+      "description": "GitHub profile markdown",
+      "updatedAt": "2025-11-23T10:36:43Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-11-22T03:11:27Z",
+      "updatedAt": "2025-11-23T03:41:52Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,20 +78,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-11-22T01:15:07Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "swpfl",
-      "url": "https://github.com/jayxdcode/swpfl",
-      "description": null,
-      "updatedAt": "2025-11-16T08:55:24Z",
+      "updatedAt": "2025-11-23T01:28:21Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -79,19 +92,6 @@
       "url": "https://github.com/jayxdcode/himari-js",
       "description": "ʜɪᴍᴀʀɪ NodeJS version",
       "updatedAt": "2025-11-02T13:50:04Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode",
-      "url": "https://github.com/jayxdcode/jayxdcode",
-      "description": "GitHub profile markdown",
-      "updatedAt": "2025-10-21T14:39:33Z",
       "defaultBranchRef": {
         "target": {
           "history": {
