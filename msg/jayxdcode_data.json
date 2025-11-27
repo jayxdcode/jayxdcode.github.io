@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251126,
+  "lastUpdate": 20251127,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-11-25T01:18:24Z"
+      "updatedAt": "2025-11-26T01:18:56Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,23 +23,36 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-11-25T03:22:10Z"
+      "updatedAt": "2025-11-26T03:21:38Z"
     },
     {
-      "name": "tdpg",
-      "url": "https://github.com/jayxdcode/tdpg",
-      "description": "TDPG (Temporal Dynamic Password Generator) is a password generator that uses different parameters like date & time, browser version, and device window width or height.",
-      "stargazerCount": 0,
+      "name": "swpfl",
+      "url": "https://github.com/jayxdcode/swpfl",
+      "description": null,
+      "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2024-07-23T16:46:49Z"
+      "updatedAt": "2025-11-26T10:21:30Z"
     }
   ],
   "latestModifiedRepos": [
     {
+      "name": "swpfl",
+      "url": "https://github.com/jayxdcode/swpfl",
+      "description": null,
+      "updatedAt": "2025-11-26T10:21:30Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-11-25T03:22:10Z",
+      "updatedAt": "2025-11-26T03:21:38Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,20 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-11-25T01:18:24Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "swpfl",
-      "url": "https://github.com/jayxdcode/swpfl",
-      "description": null,
-      "updatedAt": "2025-11-23T11:05:58Z",
+      "updatedAt": "2025-11-26T01:18:56Z",
       "defaultBranchRef": {
         "target": {
           "history": {
