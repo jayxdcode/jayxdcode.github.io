@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251211,
+  "lastUpdate": 20251212,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-12-10T01:22:23Z"
+      "updatedAt": "2025-12-11T01:23:17Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-12-10T03:29:13Z"
+      "updatedAt": "2025-12-11T03:40:01Z"
     },
     {
       "name": "swpfl",
@@ -36,10 +36,49 @@
   ],
   "latestModifiedRepos": [
     {
+      "name": "leapcell-dl",
+      "url": "https://github.com/jayxdcode/leapcell-dl",
+      "description": null,
+      "updatedAt": "2025-12-11T23:56:42Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "src",
+      "url": "https://github.com/jayxdcode/src",
+      "description": null,
+      "updatedAt": "2025-12-11T12:57:05Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "dcma",
+      "url": "https://github.com/jayxdcode/dcma",
+      "description": "Discord Music Activity (uses Discord Embedded App SDK)",
+      "updatedAt": "2025-12-11T06:15:14Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-12-10T03:29:13Z",
+      "updatedAt": "2025-12-11T03:40:01Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +91,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-12-10T01:22:23Z",
+      "updatedAt": "2025-12-11T01:23:17Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -79,45 +118,6 @@
       "url": "https://github.com/jayxdcode/jayxdcode",
       "description": "GitHub profile markdown",
       "updatedAt": "2025-11-23T10:36:43Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "himari-js",
-      "url": "https://github.com/jayxdcode/himari-js",
-      "description": "ʜɪᴍᴀʀɪ NodeJS version",
-      "updatedAt": "2025-11-02T13:50:04Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "src",
-      "url": "https://github.com/jayxdcode/src",
-      "description": null,
-      "updatedAt": "2025-10-08T05:12:17Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "swpfl-lrc-api",
-      "url": "https://github.com/jayxdcode/swpfl-lrc-api",
-      "description": "A Python FastAPI-based API to get lyrics. ",
-      "updatedAt": "2025-09-28T10:06:03Z",
       "defaultBranchRef": {
         "target": {
           "history": {
