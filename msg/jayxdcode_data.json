@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251212,
+  "lastUpdate": 20251213,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-12-11T01:23:17Z"
+      "updatedAt": "2025-12-12T01:22:50Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-12-11T03:40:01Z"
+      "updatedAt": "2025-12-12T03:39:41Z"
     },
     {
       "name": "swpfl",
@@ -39,7 +39,33 @@
       "name": "leapcell-dl",
       "url": "https://github.com/jayxdcode/leapcell-dl",
       "description": null,
-      "updatedAt": "2025-12-11T23:56:42Z",
+      "updatedAt": "2025-12-12T05:41:17Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "article-scraper-repo",
+      "url": "https://github.com/jayxdcode/article-scraper-repo",
+      "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
+      "updatedAt": "2025-12-12T03:39:41Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-12-12T01:22:50Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -66,32 +92,6 @@
       "url": "https://github.com/jayxdcode/dcma",
       "description": "Discord Music Activity (uses Discord Embedded App SDK)",
       "updatedAt": "2025-12-11T06:15:14Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "article-scraper-repo",
-      "url": "https://github.com/jayxdcode/article-scraper-repo",
-      "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-12-11T03:40:01Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode.github.io",
-      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
-      "description": "Site deployment repository",
-      "updatedAt": "2025-12-11T01:23:17Z",
       "defaultBranchRef": {
         "target": {
           "history": {
