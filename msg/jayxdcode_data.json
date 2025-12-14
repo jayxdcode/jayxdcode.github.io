@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251213,
+  "lastUpdate": 20251214,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-12-12T01:22:50Z"
+      "updatedAt": "2025-12-13T01:18:27Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-12-12T03:39:41Z"
+      "updatedAt": "2025-12-13T03:22:13Z"
     },
     {
       "name": "swpfl",
@@ -35,6 +35,45 @@
     }
   ],
   "latestModifiedRepos": [
+    {
+      "name": "dcma",
+      "url": "https://github.com/jayxdcode/dcma",
+      "description": "Discord Music Activity (uses Discord Embedded App SDK)",
+      "updatedAt": "2025-12-13T09:51:12Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "article-scraper-repo",
+      "url": "https://github.com/jayxdcode/article-scraper-repo",
+      "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
+      "updatedAt": "2025-12-13T03:22:13Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "jayxdcode.github.io",
+      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
+      "description": "Site deployment repository",
+      "updatedAt": "2025-12-13T01:18:27Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
     {
       "name": "leapcell-dl",
       "url": "https://github.com/jayxdcode/leapcell-dl",
@@ -49,49 +88,10 @@
       }
     },
     {
-      "name": "article-scraper-repo",
-      "url": "https://github.com/jayxdcode/article-scraper-repo",
-      "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-12-12T03:39:41Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "jayxdcode.github.io",
-      "url": "https://github.com/jayxdcode/jayxdcode.github.io",
-      "description": "Site deployment repository",
-      "updatedAt": "2025-12-12T01:22:50Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
       "name": "src",
       "url": "https://github.com/jayxdcode/src",
       "description": null,
       "updatedAt": "2025-12-11T12:57:05Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "dcma",
-      "url": "https://github.com/jayxdcode/dcma",
-      "description": "Discord Music Activity (uses Discord Embedded App SDK)",
-      "updatedAt": "2025-12-11T06:15:14Z",
       "defaultBranchRef": {
         "target": {
           "history": {
