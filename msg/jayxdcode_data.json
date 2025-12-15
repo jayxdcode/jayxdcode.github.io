@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251214,
+  "lastUpdate": 20251215,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-12-13T01:18:27Z"
+      "updatedAt": "2025-12-14T01:28:22Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-12-13T03:22:13Z"
+      "updatedAt": "2025-12-14T03:43:50Z"
     },
     {
       "name": "swpfl",
@@ -36,23 +36,10 @@
   ],
   "latestModifiedRepos": [
     {
-      "name": "dcma",
-      "url": "https://github.com/jayxdcode/dcma",
-      "description": "Discord Music Activity (uses Discord Embedded App SDK)",
-      "updatedAt": "2025-12-13T09:51:12Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-12-13T03:22:13Z",
+      "updatedAt": "2025-12-14T03:43:50Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +52,20 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-12-13T01:18:27Z",
+      "updatedAt": "2025-12-14T01:28:22Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "dcma",
+      "url": "https://github.com/jayxdcode/dcma",
+      "description": "Discord Music Activity (uses Discord Embedded App SDK)",
+      "updatedAt": "2025-12-13T09:51:12Z",
       "defaultBranchRef": {
         "target": {
           "history": {
