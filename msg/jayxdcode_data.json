@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20251220,
+  "lastUpdate": 20251221,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2025-12-19T01:22:50Z"
+      "updatedAt": "2025-12-20T01:18:57Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2025-12-19T03:38:57Z"
+      "updatedAt": "2025-12-20T03:21:34Z"
     },
     {
       "name": "swpfl",
@@ -36,17 +36,10 @@
   ],
   "latestModifiedRepos": [
     {
-      "name": "adblock",
-      "url": "https://github.com/jayxdcode/adblock",
-      "description": "Test adblock proxy for a certain website :)",
-      "updatedAt": "2025-12-19T15:36:26Z",
-      "defaultBranchRef": null
-    },
-    {
       "name": "dcma",
       "url": "https://github.com/jayxdcode/dcma",
       "description": "Discord Music Activity (uses Discord Embedded App SDK)",
-      "updatedAt": "2025-12-19T15:28:15Z",
+      "updatedAt": "2025-12-20T10:37:39Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -59,7 +52,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2025-12-19T03:38:57Z",
+      "updatedAt": "2025-12-20T03:21:34Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -72,7 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2025-12-19T01:22:50Z",
+      "updatedAt": "2025-12-20T01:18:57Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -80,6 +73,13 @@
           }
         }
       }
+    },
+    {
+      "name": "adblock",
+      "url": "https://github.com/jayxdcode/adblock",
+      "description": "Test adblock proxy for a certain website :)",
+      "updatedAt": "2025-12-19T15:36:26Z",
+      "defaultBranchRef": null
     },
     {
       "name": "src-backend",
