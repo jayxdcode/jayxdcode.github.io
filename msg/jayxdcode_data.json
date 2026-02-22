@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20260221,
+  "lastUpdate": 20260222,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2026-02-20T01:52:06Z"
+      "updatedAt": "2026-02-21T01:47:48Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2026-02-20T05:19:44Z"
+      "updatedAt": "2026-02-21T05:09:02Z"
     },
     {
       "name": "swpfl",
@@ -39,7 +39,20 @@
       "name": "dcma",
       "url": "https://github.com/jayxdcode/dcma",
       "description": "Discord Music Activity (uses Discord Embedded App SDK)",
-      "updatedAt": "2026-02-20T23:34:02Z",
+      "updatedAt": "2026-02-21T23:51:05Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "src-backend",
+      "url": "https://github.com/jayxdcode/src-backend",
+      "description": null,
+      "updatedAt": "2026-02-21T18:50:32Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +65,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2026-02-20T05:19:44Z",
+      "updatedAt": "2026-02-21T05:09:02Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +78,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2026-02-20T01:52:06Z",
+      "updatedAt": "2026-02-21T01:47:48Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -79,19 +92,6 @@
       "url": "https://github.com/jayxdcode/jayxdcode",
       "description": "GitHub profile markdown",
       "updatedAt": "2026-02-07T13:07:11Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "src-backend",
-      "url": "https://github.com/jayxdcode/src-backend",
-      "description": null,
-      "updatedAt": "2026-01-11T10:25:44Z",
       "defaultBranchRef": {
         "target": {
           "history": {
