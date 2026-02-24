@@ -9,9 +9,10 @@ Also in Netlify ==> [![Netlify Status](https://api.netlify.com/api/v1/badges/af4
   
 
 
-- Integer Practice
+- General Mathematics 
 
-  https://jayxdcode.github.io/integers
+  General Annuity Calculator
+  https://jayxdcode.github.io/maths/g11/q4
 
 
 
