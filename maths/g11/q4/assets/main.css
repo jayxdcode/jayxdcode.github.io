@@ -1,0 +1,153 @@
+body.dark {
+  background-color: #0A0A0A;
+}
+
+body:not(.dark) {
+  background-color: #EFF1F5;
+  color: #4C4F69;
+}
+
+body:not(.dark) a {
+  color: #1E66F5;
+}
+
+body:not(.dark) .prim-btn {
+  background-color: #8839EF;
+}
+
+body:not(.dark) .sec-txt {
+  color: #6C6F85;
+}
+
+body:not(.dark) .border {
+  border-color: #BCC0CC;
+}
+
+/* Catppuccin Latte Input Styling */
+
+body:not(.dark) input {
+  /* Use #FFFFFF or a very bright cream like #FDFDFD to prevent the "muddy" look */
+  background-color: #FFFFFF; 
+  
+  /* Use the official Text color for sharp contrast */
+  color: #4C4F69;
+  
+  /* Use a lighter border so vvvvit doesn't look like gray water */
+  border: 1px solid #DCE0E8; /* Official "Crust" color */
+}
+
+body:not(.dark) input::placeholder {
+  color: #9CA0B0; /* Official "Overlay 0" for a softer hint */
+}
+
+body:not(.dark) input:focus {
+  outline: none;
+  border-color: #1D9BFF;
+  border-width: .25em;
+  /* Add a very slight glow to make it feel premium */
+  box-shadow: 0 0 0 3px rgba(136, 57, 239, 0.1); 
+}
+
+body:not(.dark) input.computed {
+  border-color: #23BF13;
+  border-width: .25em;
+  box-shadow: 0 0 0 3px rgba(136, 57, 239, 0.1); 
+  
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* General Sryling */
+
+.card {
+  border-radius: 20px;
+  border: .2em #1D9BFF;
+}
+
+button {
+  background-color: #dc8a78;
+  height: 5em;
+  width: 8em;
+  border-radius: 15px;
+}
+
+input {
+  width: 75%;
+  max-width: 75vw;
+  height: 40px;
+  margin: .5em 0;
+  
+  border-radius: 15px;
+  padding: 8px 12px;
+  transition: border-color 0.2s ease;
+}
+
+div.inp {
+  display: flex;
+  align-items: center; /* Vertically centers label with input */
+  margin-bottom: 1.5em; /* Spacing between rows */
+  width: 95%;
+  max-width: 800px;    /* Optional: prevents it from getting too wide */
+}
+
+div.inp label {
+  width: 60px;         /* Adjust this based on your longest label */
+  font-weight: bold;
+  flex-shrink: 0;      /* Prevents the label from squishing */
+  text-align: right;
+  padding-right: 5px;
+}
+
+div.inp input {
+  flex-grow: 1;        /* Makes the input take up all remaining space */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+div.changelog-cont {
+  box-shadow: 0 0 0 3px rgba(136, 57, 239, 0.1);
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em .5em;
+  border-radius: 15px;
+  border-color: rgba(220, 138, 120, 1);
+  border-width: 0.25em ;
+}
+
+div.changelog-cont .entries {
+  padding: 0 0 0 .5em;
+}
+
+div.changelog-cont .entry-tag {
+  font-weight: bold;
+}
+
+div.changelog-cont .entry-content {
+  padding: 0 0 0 .5em;
+}
+
+div.changelog-cont .entry-content pre {
+  white-space: pre-wrap;
+  display: block;
+  word-break: break-all;
+  margin-top: .5em;
+}
+
+/* Misc Styling */
+
+.sub-blanks {
+  height: 1.5em;
+}
+
+.blanks {
+  height: 3em;
+}
+.blanks2 {
+  height: 6em;
+}
+
+.mantle {
+  background-color: #E6E9EF;
+}

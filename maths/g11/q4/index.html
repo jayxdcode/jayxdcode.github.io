@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/snackbar.css">
+</head>
+
+<body>
+  <h1 style="margin-bottom: .3em;">General Annuity Calculator</h1>
+  
+  <div></div>
+  <br /><br />
+  
+  <div class="userDir" style="margin: 0 0 1.5em .5em;">
+    <b>Enter necessary values and the script will automatically show answers.</b>
+  </div>
+  
+  <div class="card card-1">
+    <div class="calc-cont">
+      
+      <div class="inp">
+        <label for="reg_pay">R = </label>
+        <input type="text" inputmode="numeric" placeholder="R (regular pay)" name="reg_pay" id="reg_pay">
+      </div>
+      
+      <div class="inp">
+        <label for="int_rate">r = </label>
+        <input type="text" inputmode="numeric" placeholder="r (interest rate)" name="int_rate" id="int_rate">
+      </div>
+      
+      <div class="inp">
+        <label for="m_1">m_1 = </label>
+        <input type="text" inputmode="numeric" placeholder="m_1 (compounding frequency; e.g. quarterly = 3, semi-annually = 6)" name="m_1" id="m_1">
+      </div>
+      
+      <div class="inp">
+        <label for="m_2">m_2 = </label>
+        <input type="text" inputmode="numeric" placeholder="m_2 (payment frequency; e.g. monthly = 12)" name="m_2" id="m_2" value="" />
+      </div>
+            
+      <div class="inp">
+        <label for="time_val">t = </label>
+        <input type="text" inputmode="numeric" placeholder="t (time to pay; e.g. 3 years)" name="time_val" id="time_val" value="" />
+      </div>
+      
+      <div class="inp">
+        <label for="num_of_pay">n = </label>
+        <input type="text" inputmode="numeric" placeholder="n (number of pay; m_1 * t)" name="num_of_pay" id="num_of_pay">
+      </div>
+      
+      <div class="inp">
+        <label for="i">i = </label>
+        <input type="text" inputmode="numeric" placeholder="i (calculated monthly interest)" name="i" id="calc_i">
+      </div>
+      
+      <div class="inp">
+        <label for="future_val">F = </label>
+        <input type="text" inputmode="numeric" placeholder="F (future value)" name="future_val" id="future_val">
+      </div>
+      
+      <div class="control-panel" style="display: flex; justify-content: flex-end; padding: 0 2.24em">
+        <button onclick="(function(){ const proceed = confirm('Are you sure? All current contents will be erased.'); if (proceed) document.querySelectorAll('.inp input').forEach(e => {e.classList.remove('computed'); e.value = null}) })();">Clear</button>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div style="height: 10em; text-align: center; padding: 4.5em 0 0 0">
+This site isn't responsive so the UI isnt optimized for other platforms that mobile phones. Expect bugs, but just in the UI (probably).
+  </div>
+  
+  <div class="card card-2">
+    <div class="changelog-cont">
+      <h2 style="margin: .7em 0 .3em .2em; font-family: monospace;">Changelog</h2>
+      <code style="margin: .3em 0 0 .5em;">Modifications and updates made in this software over time..</code>
+      
+      <div class="br" style="margin-bottom: 3em;"></div>
+      
+      <div class="entries">
+        <div class="entry">
+          <span class="entry-tag">v0.1</span>
+          <div class="entry-content">
+            <pre>
+<b>2026-02-24 cdn:akari</b>
+
+<h3 style="margin: 0 0 -1em 0">Initial release</h3>
+
+ Current capabilities are currently limited on the following:
+
+  - `F` (Future Value)
+ 
+  - `n` (Number of payments)
+ 
+  - `i` (Calculated monthly interest)
+
+            </pre>
+          </div>
+        </div>
+                <div class="entry">
+          <span class="entry-tag">v0.2</span>
+          <div class="entry-content">
+            <pre>
+<b>2026-02-24 cdn:arima</b>
+
+<h3 style="margin: 0 0 -1em 0">What's new?</h3>
+            
+ - Updated UI (much readable numbers and redesigned the button)
+ 
+ - Improved stability (fixed logical bugs and added safeguards for potential breaking points)
+ 
+ - Added non-blocking alerts to ensure functionality isn't compromised while alerting the user.
+              
+              
+<b>Up Next:</b>
+ 
+ - Implementation of dark mode
+ 
+ - Implementation of calculator history
+ 
+ - Additional controls other than "Clear"
+ 
+ 
+* this is the first version uploaded into github coz i forgot to do it with 0.1
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="assets/gen-annuity.js">assets / gen - annuity.js</script>
+  
+  <noscript>
+    <div>
+      <h1>You need to enable JavaScript for this calculator to work :<</h1>
+    </div>
+  </noscript>
+</body>
+
+</html>

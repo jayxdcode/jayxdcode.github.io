@@ -1,0 +1,101 @@
+/* =========================
+   SNACKBAR CONTAINER
+========================= */
+
+#snackbar-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+/* =========================
+   SNACKBAR BASE
+========================= */
+
+.snackbar {
+  min-width: 260px;
+  max-width: 320px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  font-size: 0.95em;
+  cursor: default;
+}
+
+/* Catppuccin Latte Style */
+
+body:not(.dark) .snackbar {
+  background-color: #FFFFFF;
+  color: #4C4F69;
+  border: 1px solid #DCE0E8;
+}
+
+.snackbar.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================
+   TYPES
+========================= */
+
+.snackbar.error {
+  border-left: 5px solid #D20F39;
+}
+
+.snackbar.info {
+  border-left: 5px solid #1E66F5;
+}
+
+.snackbar.success {
+  border-left: 5px solid #40A02B;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.snack-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.snack-message {
+  flex: 1;
+  word-break: break-word;
+}
+
+.snack-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.snack-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #6C6F85;
+}
+
+.snack-actions button:hover {
+  color: #8839EF;
+}
+
+/* =========================
+   EXPANDED MODE
+========================= */
+
+.snackbar.expanded {
+  max-width: 450px;
+  font-size: 1.05em;
+}
