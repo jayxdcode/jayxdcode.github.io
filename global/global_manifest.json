@@ -2,43 +2,51 @@
   "jayxdcode.github.io": {
     "type": "folder",
     "folders": 8,
-    "files": 7,
+    "files": 8,
     "hasIndexHTML": true,
-    "size": 8051276,
+    "size": 8069718,
+    "path": ".",
     "contents": {
       ".github": {
         "type": "folder",
         "folders": 1,
         "files": 0,
         "hasIndexHTML": false,
-        "size": 9589,
+        "size": 9794,
+        "path": ".github",
         "contents": {
           "workflows": {
             "type": "folder",
             "folders": 0,
             "files": 5,
             "hasIndexHTML": false,
-            "size": 9589,
+            "size": 9794,
+            "path": ".github/workflows",
             "contents": {
               "generate-manifest.yml": {
                 "type": "file, YML",
-                "size": 774
+                "size": 774,
+                "path": ".github/workflows/generate-manifest.yml"
               },
               "github_data_fetcher.yml": {
                 "type": "file, YML",
-                "size": 4106
+                "size": 4106,
+                "path": ".github/workflows/github_data_fetcher.yml"
               },
               "global_manifest.yml": {
                 "type": "file, YML",
-                "size": 2989
+                "size": 3194,
+                "path": ".github/workflows/global_manifest.yml"
               },
               "manual-command-runner.yml": {
                 "type": "file, YML",
-                "size": 916
+                "size": 916,
+                "path": ".github/workflows/manual-command-runner.yml"
               },
               "node-setup.yml": {
                 "type": "file, YML",
-                "size": 804
+                "size": 804,
+                "path": ".github/workflows/node-setup.yml"
               }
             }
           }
@@ -50,6 +58,7 @@
         "files": 2,
         "hasIndexHTML": false,
         "size": 28610,
+        "path": "chronoquest__deprecated__",
         "contents": {
           "src": {
             "type": "folder",
@@ -57,32 +66,39 @@
             "files": 4,
             "hasIndexHTML": false,
             "size": 28102,
+            "path": "chronoquest__deprecated__/src",
             "contents": {
               "main.js": {
                 "type": "file, JS",
-                "size": 1163
+                "size": 1163,
+                "path": "chronoquest__deprecated__/src/main.js"
               },
               "old.story.js": {
                 "type": "file, JS",
-                "size": 18686
+                "size": 18686,
+                "path": "chronoquest__deprecated__/src/old.story.js"
               },
               "story.js": {
                 "type": "file, JS",
-                "size": 7698
+                "size": 7698,
+                "path": "chronoquest__deprecated__/src/story.js"
               },
               "styles.css": {
                 "type": "file, CSS",
-                "size": 555
+                "size": 555,
+                "path": "chronoquest__deprecated__/src/styles.css"
               }
             }
           },
           "adv.html": {
             "type": "file, HTML",
-            "size": 439
+            "size": 439,
+            "path": "chronoquest__deprecated__/adv.html"
           },
           "description.md": {
             "type": "file, MD",
-            "size": 69
+            "size": 69,
+            "path": "chronoquest__deprecated__/description.md"
           }
         }
       },
@@ -91,31 +107,38 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24058,
+        "size": 24382,
+        "path": "global",
         "contents": {
           "const-dark.css": {
             "type": "file, CSS",
-            "size": 3245
+            "size": 3242,
+            "path": "global/const-dark.css"
           },
           "const-styles.css": {
             "type": "file, CSS",
-            "size": 3212
+            "size": 3212,
+            "path": "global/const-styles.css"
           },
           "description.md": {
             "type": "file, MD",
-            "size": 68
+            "size": 68,
+            "path": "global/description.md"
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 13617
+            "size": 13617,
+            "path": "global/global_manifest.json"
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
-            "size": 3692
+            "size": 3692,
+            "path": "global/jayxdcode_data.json"
           },
           "script.js": {
             "type": "file, JS",
-            "size": 224
+            "size": 551,
+            "path": "global/script.js"
           }
         }
       },
@@ -125,6 +148,7 @@
         "files": 1,
         "hasIndexHTML": false,
         "size": 4930,
+        "path": "journal",
         "contents": {
           "backend": {
             "type": "folder",
@@ -132,18 +156,22 @@
             "files": 3,
             "hasIndexHTML": false,
             "size": 2836,
+            "path": "journal/backend",
             "contents": {
               "db.js": {
                 "type": "file, JS",
-                "size": 613
+                "size": 613,
+                "path": "journal/backend/db.js"
               },
               "package.json": {
                 "type": "file, JSON",
-                "size": 249
+                "size": 249,
+                "path": "journal/backend/package.json"
               },
               "server.js": {
                 "type": "file, JS",
-                "size": 1974
+                "size": 1974,
+                "path": "journal/backend/server.js"
               }
             }
           },
@@ -153,49 +181,109 @@
             "files": 2,
             "hasIndexHTML": true,
             "size": 2073,
+            "path": "journal/frontend",
             "contents": {
               "app.js": {
                 "type": "file, JS",
-                "size": 1212
+                "size": 1212,
+                "path": "journal/frontend/app.js"
               },
               "index.html": {
                 "type": "file, HTML",
-                "size": 861
+                "size": 861,
+                "path": "journal/frontend/index.html"
               }
             }
           },
           ".gitignore": {
             "type": "file, ",
-            "size": 21
+            "size": 21,
+            "path": "journal/.gitignore"
           }
         }
       },
       "maths": {
         "type": "folder",
-        "folders": 0,
+        "folders": 1,
         "files": 5,
         "hasIndexHTML": true,
-        "size": 10477,
+        "size": 25482,
+        "path": "maths",
         "contents": {
+          "g11": {
+            "type": "folder",
+            "folders": 1,
+            "files": 0,
+            "hasIndexHTML": false,
+            "size": 15005,
+            "path": "maths/g11",
+            "contents": {
+              "q4": {
+                "type": "folder",
+                "folders": 1,
+                "files": 1,
+                "hasIndexHTML": true,
+                "size": 15005,
+                "path": "maths/g11/q4",
+                "contents": {
+                  "assets": {
+                    "type": "folder",
+                    "folders": 0,
+                    "files": 3,
+                    "hasIndexHTML": false,
+                    "size": 10319,
+                    "path": "maths/g11/q4/assets",
+                    "contents": {
+                      "gen-annuity.js": {
+                        "type": "file, JS",
+                        "size": 5917,
+                        "path": "maths/g11/q4/assets/gen-annuity.js"
+                      },
+                      "main.css": {
+                        "type": "file, CSS",
+                        "size": 2813,
+                        "path": "maths/g11/q4/assets/main.css"
+                      },
+                      "snackbar.css": {
+                        "type": "file, CSS",
+                        "size": 1589,
+                        "path": "maths/g11/q4/assets/snackbar.css"
+                      }
+                    }
+                  },
+                  "index.html": {
+                    "type": "file, HTML",
+                    "size": 4686,
+                    "path": "maths/g11/q4/index.html"
+                  }
+                }
+              }
+            }
+          },
           "arith.html": {
             "type": "file, HTML",
-            "size": 2052
+            "size": 2052,
+            "path": "maths/arith.html"
           },
           "description.md": {
             "type": "file, MD",
-            "size": 98
+            "size": 98,
+            "path": "maths/description.md"
           },
           "functions.js": {
             "type": "file, JS",
-            "size": 6439
+            "size": 6439,
+            "path": "maths/functions.js"
           },
           "index.html": {
             "type": "file, HTML",
-            "size": 1396
+            "size": 1396,
+            "path": "maths/index.html"
           },
           "styles.css": {
             "type": "file, CSS",
-            "size": 492
+            "size": 492,
+            "path": "maths/styles.css"
           }
         }
       },
@@ -204,7 +292,8 @@
         "folders": 1,
         "files": 8,
         "hasIndexHTML": false,
-        "size": 38133,
+        "size": 39146,
+        "path": "msg",
         "contents": {
           ".dungeon": {
             "type": "folder",
@@ -212,48 +301,59 @@
             "files": 2,
             "hasIndexHTML": false,
             "size": 7259,
+            "path": "msg/.dungeon",
             "contents": {
               "const-dark.css": {
                 "type": "file, CSS",
-                "size": 3620
+                "size": 3620,
+                "path": "msg/.dungeon/const-dark.css"
               },
               "const-styles.css": {
                 "type": "file, CSS",
-                "size": 3639
+                "size": 3639,
+                "path": "msg/.dungeon/const-styles.css"
               }
             }
           },
           "description.md": {
             "type": "file, MD",
-            "size": 107
+            "size": 107,
+            "path": "msg/description.md"
           },
           "dir-dark.css": {
             "type": "file, CSS",
-            "size": 4355
+            "size": 4457,
+            "path": "msg/dir-dark.css"
           },
           "dir-styles.css": {
             "type": "file, CSS",
-            "size": 4923
+            "size": 5020,
+            "path": "msg/dir-styles.css"
           },
           "directory-cont-generator.js": {
             "type": "file, JS",
-            "size": 5329
+            "size": 6740,
+            "path": "msg/directory-cont-generator.js"
           },
           "jayxdcode_data.json": {
             "type": "file, JSON",
-            "size": 3740
+            "size": 3472,
+            "path": "msg/jayxdcode_data.json"
           },
           "proj-cont-generator.js": {
             "type": "file, JS",
-            "size": 3266
+            "size": 2937,
+            "path": "msg/proj-cont-generator.js"
           },
           "proj-dark.css": {
             "type": "file, CSS",
-            "size": 4638
+            "size": 4638,
+            "path": "msg/proj-dark.css"
           },
           "proj-styles.css": {
             "type": "file, CSS",
-            "size": 4516
+            "size": 4516,
+            "path": "msg/proj-styles.css"
           }
         }
       },
@@ -263,6 +363,7 @@
         "files": 5,
         "hasIndexHTML": true,
         "size": 7798244,
+        "path": "project_cs",
         "contents": {
           "ans": {
             "type": "folder",
@@ -270,6 +371,7 @@
             "files": 0,
             "hasIndexHTML": false,
             "size": 28,
+            "path": "project_cs/ans",
             "contents": {
               "keys": {
                 "type": "folder",
@@ -277,22 +379,27 @@
                 "files": 4,
                 "hasIndexHTML": false,
                 "size": 28,
+                "path": "project_cs/ans/keys",
                 "contents": {
                   "091524.txt": {
                     "type": "file, TXT",
-                    "size": 7
+                    "size": 7,
+                    "path": "project_cs/ans/keys/091524.txt"
                   },
                   "091924.txt": {
                     "type": "file, TXT",
-                    "size": 7
+                    "size": 7,
+                    "path": "project_cs/ans/keys/091924.txt"
                   },
                   "default.txt": {
                     "type": "file, TXT",
-                    "size": 7
+                    "size": 7,
+                    "path": "project_cs/ans/keys/default.txt"
                   },
                   "workflow-test.txt": {
                     "type": "file, TXT",
-                    "size": 7
+                    "size": 7,
+                    "path": "project_cs/ans/keys/workflow-test.txt"
                   }
                 }
               }
@@ -304,6 +411,7 @@
             "files": 3,
             "hasIndexHTML": true,
             "size": 7794150,
+            "path": "project_cs/safezone",
             "contents": {
               "091524": {
                 "type": "folder",
@@ -311,18 +419,22 @@
                 "files": 3,
                 "hasIndexHTML": false,
                 "size": 4678511,
+                "path": "project_cs/safezone/091524",
                 "contents": {
                   "notice.txt": {
                     "type": "file, TXT",
-                    "size": 191
+                    "size": 191,
+                    "path": "project_cs/safezone/091524/notice.txt"
                   },
                   "pic.jpg": {
                     "type": "file, JPG",
-                    "size": 4452739
+                    "size": 4452739,
+                    "path": "project_cs/safezone/091524/pic.jpg"
                   },
                   "pic2.jpg": {
                     "type": "file, JPG",
-                    "size": 225581
+                    "size": 225581,
+                    "path": "project_cs/safezone/091524/pic2.jpg"
                   }
                 }
               },
@@ -332,42 +444,52 @@
                 "files": 9,
                 "hasIndexHTML": false,
                 "size": 1297388,
+                "path": "project_cs/safezone/091924",
                 "contents": {
                   "notice.txt": {
                     "type": "file, TXT",
-                    "size": 380
+                    "size": 380,
+                    "path": "project_cs/safezone/091924/notice.txt"
                   },
                   "Untitled19_20240919204804.jpg": {
                     "type": "file, JPG",
-                    "size": 645600
+                    "size": 645600,
+                    "path": "project_cs/safezone/091924/Untitled19_20240919204804.jpg"
                   },
                   "Untitled20.png": {
                     "type": "file, PNG",
-                    "size": 181858
+                    "size": 181858,
+                    "path": "project_cs/safezone/091924/Untitled20.png"
                   },
                   "Untitled20~2.png": {
                     "type": "file, PNG",
-                    "size": 41572
+                    "size": 41572,
+                    "path": "project_cs/safezone/091924/Untitled20~2.png"
                   },
                   "Untitled20~3.png": {
                     "type": "file, PNG",
-                    "size": 56990
+                    "size": 56990,
+                    "path": "project_cs/safezone/091924/Untitled20~3.png"
                   },
                   "Untitled20~4.png": {
                     "type": "file, PNG",
-                    "size": 39813
+                    "size": 39813,
+                    "path": "project_cs/safezone/091924/Untitled20~4.png"
                   },
                   "Untitled21_20240919222842.png": {
                     "type": "file, PNG",
-                    "size": 183839
+                    "size": 183839,
+                    "path": "project_cs/safezone/091924/Untitled21_20240919222842.png"
                   },
                   "Untitled21_20240919222842~2.png": {
                     "type": "file, PNG",
-                    "size": 53104
+                    "size": 53104,
+                    "path": "project_cs/safezone/091924/Untitled21_20240919222842~2.png"
                   },
                   "Untitled21_20240919222842~3.png": {
                     "type": "file, PNG",
-                    "size": 94232
+                    "size": 94232,
+                    "path": "project_cs/safezone/091924/Untitled21_20240919222842~3.png"
                   }
                 }
               },
@@ -377,26 +499,32 @@
                 "files": 5,
                 "hasIndexHTML": false,
                 "size": 645488,
+                "path": "project_cs/safezone/good-item",
                 "contents": {
                   "-yyatfv.jpg": {
                     "type": "file, JPG",
-                    "size": 225581
+                    "size": 225581,
+                    "path": "project_cs/safezone/good-item/-yyatfv.jpg"
                   },
                   "message.jpg": {
                     "type": "file, JPG",
-                    "size": 123482
+                    "size": 123482,
+                    "path": "project_cs/safezone/good-item/message.jpg"
                   },
                   "Screenshot_20240912-000449.png": {
                     "type": "file, PNG",
-                    "size": 14526
+                    "size": 14526,
+                    "path": "project_cs/safezone/good-item/Screenshot_20240912-000449.png"
                   },
                   "Screenshot_20240912-211642.png": {
                     "type": "file, PNG",
-                    "size": 228738
+                    "size": 228738,
+                    "path": "project_cs/safezone/good-item/Screenshot_20240912-211642.png"
                   },
                   "Screenshot_20240913-184433.png": {
                     "type": "file, PNG",
-                    "size": 53161
+                    "size": 53161,
+                    "path": "project_cs/safezone/good-item/Screenshot_20240913-184433.png"
                   }
                 }
               },
@@ -406,62 +534,76 @@
                 "files": 5,
                 "hasIndexHTML": false,
                 "size": 1162966,
+                "path": "project_cs/safezone/workflow-test",
                 "contents": {
                   "notice.txt": {
                     "type": "file, TXT",
-                    "size": 25
+                    "size": 25,
+                    "path": "project_cs/safezone/workflow-test/notice.txt"
                   },
                   "pic.jpg": {
                     "type": "file, JPG",
-                    "size": 91100
+                    "size": 91100,
+                    "path": "project_cs/safezone/workflow-test/pic.jpg"
                   },
                   "pic2.jpg": {
                     "type": "file, JPG",
-                    "size": 86
+                    "size": 86,
+                    "path": "project_cs/safezone/workflow-test/pic2.jpg"
                   },
                   "pic3.jpg": {
                     "type": "file, JPG",
-                    "size": 225581
+                    "size": 225581,
+                    "path": "project_cs/safezone/workflow-test/pic3.jpg"
                   },
                   "Screenshot_20240910-063242.png": {
                     "type": "file, PNG",
-                    "size": 846174
+                    "size": 846174,
+                    "path": "project_cs/safezone/workflow-test/Screenshot_20240910-063242.png"
                   }
                 }
               },
               "folder.html": {
                 "type": "file, HTML",
-                "size": 7720
+                "size": 7720,
+                "path": "project_cs/safezone/folder.html"
               },
               "index.html": {
                 "type": "file, HTML",
-                "size": 1479
+                "size": 1479,
+                "path": "project_cs/safezone/index.html"
               },
               "manifest.json": {
                 "type": "file, JSON",
-                "size": 598
+                "size": 598,
+                "path": "project_cs/safezone/manifest.json"
               }
             }
           },
           "description.md": {
             "type": "file, MD",
-            "size": 70
+            "size": 70,
+            "path": "project_cs/description.md"
           },
           "folder-manifest.json": {
             "type": "file, JSON",
-            "size": 87
+            "size": 87,
+            "path": "project_cs/folder-manifest.json"
           },
           "generateManifest.js": {
             "type": "file, JS",
-            "size": 1624
+            "size": 1624,
+            "path": "project_cs/generateManifest.js"
           },
           "index.html": {
             "type": "file, HTML",
-            "size": 1929
+            "size": 1929,
+            "path": "project_cs/index.html"
           },
           "project_cs.md": {
             "type": "file, MD",
-            "size": 356
+            "size": 356,
+            "path": "project_cs/project_cs.md"
           }
         }
       },
@@ -471,44 +613,59 @@
         "files": 2,
         "hasIndexHTML": false,
         "size": 123562,
+        "path": "source",
         "contents": {
           "info.txt": {
             "type": "file, TXT",
-            "size": 80
+            "size": 80,
+            "path": "source/info.txt"
           },
           "message.jpg": {
             "type": "file, JPG",
-            "size": 123482
+            "size": 123482,
+            "path": "source/message.jpg"
           }
         }
       },
       ".gitignore": {
         "type": "file, ",
-        "size": 12
+        "size": 12,
+        "path": ".gitignore"
       },
       "directory.html": {
         "type": "file, HTML",
-        "size": 3864
+        "size": 3864,
+        "path": "directory.html"
+      },
+      "generate.js": {
+        "type": "file, JS",
+        "size": 1858,
+        "path": "generate.js"
       },
       "index.html": {
         "type": "file, HTML",
-        "size": 3587
+        "size": 3587,
+        "path": "index.html"
       },
       "LICENSE": {
         "type": "file, ",
-        "size": 1062
+        "size": 1062,
+        "path": "LICENSE"
       },
       "package.json": {
         "type": "file, JSON",
-        "size": 111
+        "size": 111,
+        "path": "package.json"
       },
       "projects.html": {
         "type": "file, HTML",
-        "size": 4617
+        "size": 4617,
+        "path": "projects.html"
       },
       "README.md": {
         "type": "file, MD",
-        "size": 420
+        "size": 457,
+        "path": "README.md"
       }
     }
   }
