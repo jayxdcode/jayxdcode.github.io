@@ -4,7 +4,7 @@
     "folders": 8,
     "files": 8,
     "hasIndexHTML": true,
-    "size": 8069718,
+    "size": 8077042,
     "path": ".",
     "contents": {
       ".github": {
@@ -107,7 +107,7 @@
         "folders": 0,
         "files": 6,
         "hasIndexHTML": false,
-        "size": 24382,
+        "size": 31706,
         "path": "global",
         "contents": {
           "const-dark.css": {
@@ -127,7 +127,7 @@
           },
           "global_manifest.json": {
             "type": "file, JSON",
-            "size": 13617,
+            "size": 20941,
             "path": "global/global_manifest.json"
           },
           "jayxdcode_data.json": {
