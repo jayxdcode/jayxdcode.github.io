@@ -77,7 +77,7 @@ jobs:
           }
 
           const manifest = {
-          	`${username}.github.io`: getDirInfo(".")
+          	[`${username}.github.io`]: getDirInfo(".")
           };
 
           fs.mkdirSync('global', { recursive: true });
