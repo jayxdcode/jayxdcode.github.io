@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20260419,
+  "lastUpdate": 20260420,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2026-04-18T02:05:05Z"
+      "updatedAt": "2026-04-19T02:26:24Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2026-04-18T05:44:23Z"
+      "updatedAt": "2026-04-19T06:02:50Z"
     },
     {
       "name": "swpfl",
@@ -39,7 +39,20 @@
       "name": "piped-instances",
       "url": "https://github.com/jayxdcode/piped-instances",
       "description": "Automatic Piped API instance parser",
-      "updatedAt": "2026-04-19T00:02:40Z",
+      "updatedAt": "2026-04-20T00:04:41Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "dcma",
+      "url": "https://github.com/jayxdcode/dcma",
+      "description": "Hitori - A simple music web app (formerly dcma)",
+      "updatedAt": "2026-04-19T08:45:33Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,20 +65,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2026-04-18T05:44:23Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "dcma",
-      "url": "https://github.com/jayxdcode/dcma",
-      "description": "Discord Music Activity (uses Discord Embedded App SDK)",
-      "updatedAt": "2026-04-18T05:24:09Z",
+      "updatedAt": "2026-04-19T06:02:50Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -78,7 +78,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2026-04-18T02:05:05Z",
+      "updatedAt": "2026-04-19T02:26:24Z",
       "defaultBranchRef": {
         "target": {
           "history": {
