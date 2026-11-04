@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20261103,
+  "lastUpdate": 20261104,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2026-11-02T04:14:01Z"
+      "updatedAt": "2026-11-03T05:13:04Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2026-11-02T09:14:45Z"
+      "updatedAt": "2026-11-03T09:20:11Z"
     },
     {
       "name": "swpfl",
@@ -39,7 +39,20 @@
       "name": "piped-instances",
       "url": "https://github.com/jayxdcode/piped-instances",
       "description": "Automatic Piped API instance parser",
-      "updatedAt": "2026-11-03T02:09:09Z",
+      "updatedAt": "2026-11-04T03:08:37Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "neon-diner",
+      "url": "https://github.com/jayxdcode/neon-diner",
+      "description": "HTML-based interactive storytelling",
+      "updatedAt": "2026-11-04T01:01:09Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,7 +65,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2026-11-02T09:14:45Z",
+      "updatedAt": "2026-11-03T09:20:11Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +78,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2026-11-02T04:14:01Z",
+      "updatedAt": "2026-11-03T05:13:04Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -105,19 +118,6 @@
       "url": "https://github.com/jayxdcode/src-backend",
       "description": null,
       "updatedAt": "2026-05-09T10:15:08Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "epg-generator",
-      "url": "https://github.com/jayxdcode/epg-generator",
-      "description": "test",
-      "updatedAt": "2026-05-04T10:43:27Z",
       "defaultBranchRef": {
         "target": {
           "history": {
