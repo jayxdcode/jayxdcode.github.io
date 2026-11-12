@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20261111,
+  "lastUpdate": 20261112,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2026-11-10T05:50:47Z"
+      "updatedAt": "2026-11-11T05:34:03Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2026-11-10T09:45:27Z"
+      "updatedAt": "2026-11-11T10:09:48Z"
     },
     {
       "name": "swpfl",
@@ -36,23 +36,10 @@
   ],
   "latestModifiedRepos": [
     {
-      "name": "mock-test",
-      "url": "https://github.com/jayxdcode/mock-test",
-      "description": "Mock test project files",
-      "updatedAt": "2026-11-11T03:47:08Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
       "name": "piped-instances",
       "url": "https://github.com/jayxdcode/piped-instances",
       "description": "Automatic Piped API instance parser",
-      "updatedAt": "2026-11-11T00:32:08Z",
+      "updatedAt": "2026-11-12T03:44:17Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -65,7 +52,20 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2026-11-10T09:45:27Z",
+      "updatedAt": "2026-11-11T10:09:48Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "mock-test",
+      "url": "https://github.com/jayxdcode/mock-test",
+      "description": "Mock test project files",
+      "updatedAt": "2026-11-11T07:14:24Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -78,7 +78,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2026-11-10T05:50:47Z",
+      "updatedAt": "2026-11-11T05:34:03Z",
       "defaultBranchRef": {
         "target": {
           "history": {
