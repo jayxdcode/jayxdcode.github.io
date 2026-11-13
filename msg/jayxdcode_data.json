@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 20261112,
+  "lastUpdate": 20261113,
   "pinnedRepos": [
     {
       "name": "jayxdcode.github.io",
@@ -7,7 +7,7 @@
       "description": "Site deployment repository",
       "stargazerCount": 1,
       "forkCount": 0,
-      "updatedAt": "2026-11-11T05:34:03Z"
+      "updatedAt": "2026-11-12T06:38:48Z"
     },
     {
       "name": "Translation-Fix",
@@ -23,7 +23,7 @@
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
       "stargazerCount": 2,
       "forkCount": 0,
-      "updatedAt": "2026-11-11T10:09:48Z"
+      "updatedAt": "2026-11-12T10:37:24Z"
     },
     {
       "name": "swpfl",
@@ -39,7 +39,7 @@
       "name": "piped-instances",
       "url": "https://github.com/jayxdcode/piped-instances",
       "description": "Automatic Piped API instance parser",
-      "updatedAt": "2026-11-12T03:44:17Z",
+      "updatedAt": "2026-11-12T12:28:24Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -52,20 +52,7 @@
       "name": "article-scraper-repo",
       "url": "https://github.com/jayxdcode/article-scraper-repo",
       "description": "A repository that automatically extracts [editorial] articles (for now) daily and saves it as 1) Markdown and 2) Docx. ",
-      "updatedAt": "2026-11-11T10:09:48Z",
-      "defaultBranchRef": {
-        "target": {
-          "history": {
-            "totalCount": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "mock-test",
-      "url": "https://github.com/jayxdcode/mock-test",
-      "description": "Mock test project files",
-      "updatedAt": "2026-11-11T07:14:24Z",
+      "updatedAt": "2026-11-12T10:37:24Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -78,7 +65,7 @@
       "name": "jayxdcode.github.io",
       "url": "https://github.com/jayxdcode/jayxdcode.github.io",
       "description": "Site deployment repository",
-      "updatedAt": "2026-11-11T05:34:03Z",
+      "updatedAt": "2026-11-12T06:38:48Z",
       "defaultBranchRef": {
         "target": {
           "history": {
@@ -118,6 +105,19 @@
       "url": "https://github.com/jayxdcode/lyrxl",
       "description": null,
       "updatedAt": "2026-05-22T18:10:54Z",
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "totalCount": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "src-backend",
+      "url": "https://github.com/jayxdcode/src-backend",
+      "description": null,
+      "updatedAt": "2026-05-09T10:15:08Z",
       "defaultBranchRef": {
         "target": {
           "history": {
